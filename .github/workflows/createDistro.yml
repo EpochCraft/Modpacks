@@ -29,6 +29,10 @@ jobs:
         working-directory: "Nebula/NebulaRepo"
         run: npm install
 
+      - name: Init root
+        working-directory: "Nebula/NebulaRepo"
+        run: npm run start -- init root
+
       - name: Generate Distro
         working-directory: "Nebula/NebulaRepo"
         run: npm start -- generate distro
