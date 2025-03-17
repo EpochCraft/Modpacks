@@ -1,10 +1,6 @@
 # Write a workflow to go into NebulaRoot and run "npm start -- generate distro" and then after completed, upload the distribution.json file in NebulaRoot to Cloudflare Pages.
 name: Create Distro
-
-on:
-  push:
-    branches:
-      - main
+on: [push]
 
 jobs:
   build:
