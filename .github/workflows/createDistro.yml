@@ -19,9 +19,9 @@ jobs:
           node-version: '14'
 
       - name: Install dependencies
-        working-directory: "NebulaRepo"
+        working-directory: "Nebula/NebulaRepo"
         run: npm install
 
       - name: Generate Distro
-        working-directory: "NebulaRepo"
+        working-directory: "Nebula/NebulaRepo"
         run: npm start -- generate distro
