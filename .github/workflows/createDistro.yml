@@ -49,3 +49,4 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: epochdistribution
           directory: distro
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
