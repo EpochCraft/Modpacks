@@ -20,8 +20,10 @@ jobs:
           distribution: 'temurin' # See 'Supported distributions' for available options
           java-version: '21'
 
-      - name: Find java
-        run: whereis java
+      # Write a step to go into Nebula/NebulaRepo and replace the Java path in .env with /usr/lib/jvm/temurin-21-jdk-amd64/bin/java relying on just the start of the line. JAVA_EXECUTABLE=
+      - name: Replace Java Path
+        working-directory: "Nebula/NebulaRepo"
+        run: sed -i 's/JAVA_EXECUTABLE=.*/JAVA_EXECUTABLE=\/usr\/lib\/jvm\/temurin-21-jdk-amd64\/bin\/java/g' .env
 
       - name: Install dependencies
         working-directory: "Nebula/NebulaRepo"
