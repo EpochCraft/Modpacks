@@ -37,15 +37,11 @@ jobs:
         working-directory: "Nebula/NebulaRepo"
         run: npm start -- generate distro
 
-      - name: Create CF Directory and Move Distro
-        working-directory: "Nebula/NebulaRoot"
-        run: mkdir -p distro && mv distribution.json distro/
-
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy Nebula/NebulaRoot/distro --project-name=epochdistribution
+          command: pages deploy Nebula/NebulaRoot --project-name=epochdistribution
           # Optional: Enable this if you want to have GitHub Deployments triggered
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
