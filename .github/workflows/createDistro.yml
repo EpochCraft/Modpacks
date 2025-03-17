@@ -21,7 +21,7 @@ jobs:
           java-version: '21'
 
       - name: Find java
-        run: where java
+        run: whereis java
 
       - name: Install dependencies
         working-directory: "Nebula/NebulaRepo"
