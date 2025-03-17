@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/henry/Documents/GitHub/Modpacks/Nebula/NebulaRoot/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "v1.3.0",
+    "name": "Beta (Minecraft 1.20.1)",
+    "description": "Beta Running Minecraft 1.20.1 (Forge v47.3.10)",
+    "icon": "",
+    "address": "beta.epochcraft.space",
+    "discord": {
+      "shortId": "1341478895714697309",
+      "largeImageText": "beta",
+      "largeImageKey": "beta"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "forge": {
+    "version": "47.3.10"
+  },
+  "untrackedFiles": []
+}
