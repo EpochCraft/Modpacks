@@ -40,9 +40,9 @@ jobs:
           files: "./Nebula/NebulaRoot/"
           dest: result.zip
 
-      - name: Upload zip to Whalebone
+      - name: Upload zip to TransferHost
         run: |
-          UPLOAD_URL=$(curl --upload-file ./result.zip https://transfer.whalebone.io/result.zip)
+          UPLOAD_URL=$(curl --upload-file ./result.zip http://${{ secrets.TRANSFERHOST }}/result.zip)
           echo "$UPLOAD_URL" > upload_url.txt
           cat upload_url.txt
         shell: bash
