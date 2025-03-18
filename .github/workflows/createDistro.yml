@@ -1,6 +1,6 @@
 # Write a workflow to go into NebulaRoot and run "npm start -- generate distro" and then after completed, upload the distribution.json file in NebulaRoot to Cloudflare Pages.
 name: Create Distro
-on: [push]
+on: [ push ]
 
 jobs:
   build:
@@ -37,6 +37,11 @@ jobs:
         working-directory: "Nebula/NebulaRepo"
         run: npm start -- generate distro
 
+      - uses: vimtor/action-zip@v1.2
+        with:
+          files: "./Nebula/NebulaRoot/"
+          dest: result.zip
+
       - name: 📂 SFTP uploader # Upload to SFTP
         uses: wangyucode/sftp-upload-action@v2.0.4
         with:
@@ -46,6 +51,6 @@ jobs:
           port: 2022
           compress: true # Compression
           forceUpload: true # Optional, Force uploading all files, Default to false(upload only newer files).
-          localDir: "./Nebula/NebulaRoot" # Required, Absolute or relative to cwd.
+          localDir: "result.zip" # Required, Absolute or relative to cwd.
           remoteDir: "/webroot" # Required, Absolute path only.
           removeExtraFilesOnServer: true
