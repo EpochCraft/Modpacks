@@ -41,7 +41,7 @@ jobs:
         uses: Dylan700/sftp-upload-action@latest
         with:
           server: panel.epochcraft.space
-          username: artificialai.cc7fc867
+          username: "artificialai.cc7fc867"
           password: ${{secrets.SFTP_PWD}}
           port: 2022
           delete: true
