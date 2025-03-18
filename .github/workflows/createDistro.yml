@@ -44,13 +44,12 @@ jobs:
 
       - name: executing remote ssh commands using password
         uses: appleboy/ssh-action@v1
-        allow_failure: true
         with:
           host: ${{ secrets.HOST }}
           username: epochdistupload
           password: ${{ secrets.SSH_PWD }}
           port: ${{ secrets.PORT }}
-          script: cd webroot && rm -r .
+          script: cd webroot && rm -r * && exit
 
       - name: SFTP upload
         uses: Dylan700/sftp-upload-action@latest
