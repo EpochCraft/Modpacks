@@ -1,4 +1,3 @@
-# Write a workflow to go into NebulaRoot and run "npm start -- generate distro" and then after completed, upload the distribution.json file in NebulaRoot to Cloudflare Pages.
 name: Create Distro
 on: [ push ]
 
@@ -17,10 +16,9 @@ jobs:
 
       - uses: actions/setup-java@v4
         with:
-          distribution: 'temurin' # See 'Supported distributions' for available options
+          distribution: 'temurin'
           java-version: '21'
 
-      # Write a step to go into Nebula/NebulaRepo and replace the Java path in .env with /usr/lib/jvm/temurin-21-jdk-amd64/bin/java relying on just the start of the line. JAVA_EXECUTABLE=
       - name: Replace Java Path
         working-directory: "Nebula/NebulaRepo"
         run: sed -i 's/JAVA_EXECUTABLE=.*/JAVA_EXECUTABLE=\/usr\/lib\/jvm\/temurin-21-jdk-amd64\/bin\/java/g' .env
@@ -42,32 +40,41 @@ jobs:
           files: "./Nebula/NebulaRoot/"
           dest: result.zip
 
-      - name: executing remote ssh commands using password
+      - name: Upload zip to Whalebone
+        run: |
+          UPLOAD_URL=$(curl --upload-file ./result.zip https://transfer.whalebone.io/)
+          echo "$UPLOAD_URL" > upload_url.txt
+          cat upload_url.txt
+        shell: bash
+
+      - name: Save upload URL as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: upload_url
+          path: upload_url.txt
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Download upload URL artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: upload_url
+
+      - name: Read upload URL
+        id: get_url
+        run: echo "UPLOAD_URL=$(cat upload_url.txt)" >> $GITHUB_ENV
+
+      - name: Deploy via SSH
         uses: appleboy/ssh-action@v1
         with:
           host: ${{ secrets.HOST }}
           username: epochdistupload
           password: ${{ secrets.SSH_PWD }}
           port: ${{ secrets.PORT }}
-          script: cd webroot && rm -r * || true
-
-      - name: SFTP upload
-        uses: Dylan700/sftp-upload-action@latest
-        with:
-          server: panel.epochcraft.space
-          username: "artificialai.cc7fc867"
-          password: ${{ secrets.SFTP_PWD }}
-          port: 2022
-          uploads: |
-            ./ => ./webroot
-          ignore: |
-            !result.zip
-
-      - name: executing remote ssh commands using password
-        uses: appleboy/ssh-action@v1
-        with:
-          host: ${{ secrets.HOST }}
-          username: epochdistupload
-          password: ${{ secrets.SSH_PWD }}
-          port: ${{ secrets.PORT }}
-          script: cd webroot && unzip result.zip
+          script: |
+            cd webroot && rm -r * || true
+            wget $UPLOAD_URL -O result.zip
+            unzip result.zip
