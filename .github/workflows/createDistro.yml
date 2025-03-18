@@ -44,6 +44,6 @@ jobs:
           server: panel.epochcraft.space
           port: 2022
           local_path: './Nebula/NebulaRoot/*'
-          remote_path: '/webroot'
+          remote_path: 'webroot'
           sftp_only: true
           password: ${{ secrets.SFTP_PWD }}
