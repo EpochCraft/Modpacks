@@ -75,12 +75,11 @@ jobs:
         uses: appleboy/ssh-action@v1
         with:
           host: ${{ secrets.HOST }}
-          username: epochdistupload
+          username: root
           password: ${{ secrets.SSH_PWD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd webroot
-            rm -r *
+            cd /mnt/nvme2/pterodactyl_volumes/cc7fc867-b5b9-4d00-b4c5-eed4c9fe1e33/webroot
             wget https://github.com/EpochCraft/Modpacks/releases/download/${{steps.short_sha.outputs.sha8}}/result.zip -O result.zip
             unzip result.zip
             rm -r result.zip
