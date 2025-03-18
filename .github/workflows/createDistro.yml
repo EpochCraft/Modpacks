@@ -47,3 +47,14 @@ jobs:
           delete: true
           uploads: |
            ./Nebula/NebulaRoot => ./webroot
+
+      - name: Deploy with Password
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.5
+        with:
+          username: "artificialai.cc7fc867"
+          server: panel.epochcraft.space
+          port: 2022
+          local_path: './Nebula/NebulaRoot/*'
+          remote_path: '/webroot'
+          sftp_only: true
+          password: ${{ secrets.SFTP_PWD }}
