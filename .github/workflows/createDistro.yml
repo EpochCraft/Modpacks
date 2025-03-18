@@ -80,3 +80,5 @@ jobs:
             cd webroot && rm -r * || true
             wget https://github.com/EpochCraft/Modpacks/releases/download/${{steps.short_sha.outputs.sha8}}/result.zip -O result.zip
             unzip result.zip
+            mv Nebula/NebulaRoot/* .
+            rm -r Nebula/NebulaRoot result.zip
