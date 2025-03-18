@@ -42,15 +42,32 @@ jobs:
           files: "./Nebula/NebulaRoot/"
           dest: result.zip
 
-      - name: 📂 SFTP uploader # Upload to SFTP
-        uses: wangyucode/sftp-upload-action@v2.0.4
+      - name: executing remote ssh commands using password
+        uses: appleboy/ssh-action@v1
         with:
-          host: panel.epochcraft.space # Recommended to put the credentials in github secrets.
+          host: ${{ secrets.HOST }}
+          username: epochdistupload
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: cd webroot && rm -r *
+
+      - name: SFTP upload
+        uses: Dylan700/sftp-upload-action@latest
+        with:
+          server: panel.epochcraft.space
           username: "artificialai.cc7fc867"
           password: ${{ secrets.SFTP_PWD }}
           port: 2022
-          compress: true # Compression
-          forceUpload: true # Optional, Force uploading all files, Default to false(upload only newer files).
-          localDir: "result.zip" # Required, Absolute or relative to cwd.
-          remoteDir: "/webroot" # Required, Absolute path only.
-          removeExtraFilesOnServer: true
+          uploads: |
+            ./ => ./webroot
+          ignore: |
+            !result.zip
+
+      - name: executing remote ssh commands using password
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.HOST }}
+          username: epochdistupload
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: cd webroot && unzip result.zip
