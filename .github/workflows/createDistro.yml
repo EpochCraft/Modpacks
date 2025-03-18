@@ -63,6 +63,10 @@ jobs:
         with:
           name: upload_url
 
+      - name: Read upload URL2
+        id: get_url2
+        run: ls
+
       - name: Read upload URL
         id: get_url
         run: echo "UPLOAD_URL=$(cat upload_url.txt)" >> $GITHUB_ENV
