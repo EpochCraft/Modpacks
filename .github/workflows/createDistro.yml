@@ -46,4 +46,4 @@ jobs:
           port: 2022
           delete: true
           uploads: |
-          ./Nebula/NebulaRoot => ./webroot
+           ./Nebula/NebulaRoot => ./webroot
