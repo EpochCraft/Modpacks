@@ -37,13 +37,13 @@ jobs:
         working-directory: "Nebula/NebulaRepo"
         run: npm start -- generate distro
 
-      - name: SFTP upload
-        uses: Dylan700/sftp-upload-action@latest
+      - name: 📂 SFTP uploader # Upload to SFTP
+        uses: wangyucode/sftp-upload-action@v2.0.4
         with:
-          server: panel.epochcraft.space
+          host: panel.epochcraft.space # Recommended to put the credentials in github secrets.
           username: "artificialai.cc7fc867"
-          password: ${{secrets.SFTP_PWD}}
-          port: 2022
-          delete: true
-          uploads: |
-           ./Nebula/NebulaRoot => ./webroot
+          password: ${{ secrets.SFTP_PWD }}
+          compress: true # Compression
+          forceUpload: true # Optional, Force uploading all files, Default to false(upload only newer files).
+          localDir: "./Nebula/NebulaRoot" # Required, Absolute or relative to cwd.
+          remoteDir: "/webroot" # Required, Absolute path only.
