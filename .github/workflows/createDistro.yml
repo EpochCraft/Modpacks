@@ -37,11 +37,13 @@ jobs:
         working-directory: "Nebula/NebulaRepo"
         run: npm start -- generate distro
 
-      - name: Deploy
-        uses: cloudflare/wrangler-action@v3
+      - name: SFTP upload
+        uses: Dylan700/sftp-upload-action@latest
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy Nebula/NebulaRoot --project-name=epochdistribution
-          # Optional: Enable this if you want to have GitHub Deployments triggered
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          server: panel.epochcraft.space
+          username: artificialai.cc7fc867
+          password: ${{secrets.SFTP_PWD}}
+          port: 2022
+          delete: true
+          uploads: |
+          ./Nebula/NebulaRoot => ./webroot
