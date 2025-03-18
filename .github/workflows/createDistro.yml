@@ -40,15 +40,18 @@ jobs:
           files: "./Nebula/NebulaRoot/"
           dest: result.zip
 
-      - name: Upload Artifact and Capture URL
-        id: upload_artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: distribution
-          path: result.zip
+      - name: Get short SHA
+        id: short_sha
+        run: echo "::set-output name=sha8::$(echo ${GITHUB_SHA} | cut -c1-8)"
 
-      - name: Set Artifact URL
-        run: echo "ARTIFACT_URL=${{ steps.upload_artifact.outputs.url }}" >> $GITHUB_ENV
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: ${{steps.short_sha.outputs.sha8}}
+          prerelease: true
+          title: ${{steps.short_sha.outputs.sha8}}
+          files: |
+            result.zip
 
       - name: Deploy via SSH
         uses: appleboy/ssh-action@v1
@@ -59,5 +62,5 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd webroot && rm -r * || true
-            wget --header="Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" ${{ env.ARTIFACT_URL }} -O result.zip
+            wget https://github.com/EpochCraft/Modpacks/releases/download/${{steps.short_sha.outputs.sha8}}/result.zip -O result.zip
             unzip result.zip
