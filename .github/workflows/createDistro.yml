@@ -43,7 +43,9 @@ jobs:
           host: panel.epochcraft.space # Recommended to put the credentials in github secrets.
           username: "artificialai.cc7fc867"
           password: ${{ secrets.SFTP_PWD }}
+          port: 2022
           compress: true # Compression
           forceUpload: true # Optional, Force uploading all files, Default to false(upload only newer files).
           localDir: "./Nebula/NebulaRoot" # Required, Absolute or relative to cwd.
           remoteDir: "/webroot" # Required, Absolute path only.
+          removeExtraFilesOnServer: true
