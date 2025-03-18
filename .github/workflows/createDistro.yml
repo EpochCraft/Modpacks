@@ -79,7 +79,8 @@ jobs:
           password: ${{ secrets.SSH_PWD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd webroot && rm -r * || true
+            cd webroot
+            rm -r *
             wget https://github.com/EpochCraft/Modpacks/releases/download/${{steps.short_sha.outputs.sha8}}/result.zip -O result.zip
             unzip result.zip
             rm -r result.zip
