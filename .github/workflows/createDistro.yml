@@ -49,7 +49,7 @@ jobs:
           username: epochdistupload
           password: ${{ secrets.SSH_PWD }}
           port: ${{ secrets.PORT }}
-          script: cd webroot && rm -r * && exit
+          script: cd webroot && rm -r * || true
 
       - name: SFTP upload
         uses: Dylan700/sftp-upload-action@latest
