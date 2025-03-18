@@ -37,13 +37,13 @@ jobs:
         working-directory: "Nebula/NebulaRepo"
         run: npm start -- generate distro
 
-      - name: Deploy with Password
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.5
+      - name: SFTP upload
+        uses: Dylan700/sftp-upload-action@latest
         with:
-          username: "artificialai.cc7fc867"
           server: panel.epochcraft.space
+          username: "artificialai.cc7fc867"
+          password: ${{secrets.SFTP_PWD}}
           port: 2022
-          local_path: './Nebula/NebulaRoot/*'
-          remote_path: 'webroot'
-          sftp_only: true
-          password: ${{ secrets.SFTP_PWD }}
+          delete: true
+          uploads: |
+           ./Nebula/NebulaRoot => ./webroot
