@@ -38,8 +38,10 @@ jobs:
         working-directory: "Nebula/NebulaRepo"
         run: npm start -- generate distro
 
-      - name: Generate Distro Zip
-        run: zip -9 -R result.zip Nebula/NebulaRoot/*
+      - uses: vimtor/action-zip@v1.2
+        with:
+          files: Nebula/NebulaRoot/*
+          dest: result.zip
 
       - name: Get short SHA
         id: short_sha
