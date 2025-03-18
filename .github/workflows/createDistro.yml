@@ -40,7 +40,7 @@ jobs:
 
       - uses: vimtor/action-zip@v1.2
         with:
-          files: Nebula/NebulaRoot/*
+          files: "./Nebula/NebulaRoot/"
           dest: result.zip
 
       - name: Get short SHA
