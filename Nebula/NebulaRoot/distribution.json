@@ -1,0 +1,4430 @@
+{
+  "version": "1.0.0",
+  "rss": "",
+  "discord": {
+    "clientId": "1341478895714697309",
+    "smallImageText": "beta",
+    "smallImageKey": "beta"
+  },
+  "servers": [
+    {
+      "id": "Beta-1.20.1",
+      "name": "Beta (Minecraft 1.20.1)",
+      "description": "Beta Running Minecraft 1.20.1 (Forge v47.3.10)",
+      "icon": "https://i.imgur.com/XrSE655.png",
+      "version": "v1.4.0",
+      "address": "beta.epochcraft.space",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "1341478895714697309",
+        "largeImageText": "beta",
+        "largeImageKey": "beta"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.0",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7399,
+            "MD5": "a839d5603a05491f84f6c36284ab0ea8",
+            "url": "https://distro.epochcraft.space/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.4.0",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16612,
+                "MD5": "029daa8b97e10cedd4d6726a563379ab",
+                "url": "https://distro.epochcraft.space/repo/versions/1.20.1-forge-47.4.0/1.20.1-forge-47.4.0.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.0",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118914,
+                "MD5": "bc798cdec9ec7eeb3354b550d5e67652",
+                "url": "https://distro.epochcraft.space/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.0",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16855,
+                "MD5": "10ca1edc0a62ea799c4327bfc44e5ad6",
+                "url": "https://distro.epochcraft.space/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.0",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4998,
+                "MD5": "cd3d6af64b394583aa83090915469f9e",
+                "url": "https://distro.epochcraft.space/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.0:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2776081,
+                "MD5": "f373b63ab9bfe53f7b35aaa425afa136",
+                "url": "https://distro.epochcraft.space/repo/lib/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.0:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4826828,
+                "MD5": "1940b09c4b066287963bde17aa375cec",
+                "url": "https://distro.epochcraft.space/repo/lib/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://distro.epochcraft.space/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://distro.epochcraft.space/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://distro.epochcraft.space/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://distro.epochcraft.space/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://distro.epochcraft.space/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://distro.epochcraft.space/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://distro.epochcraft.space/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://distro.epochcraft.space/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://distro.epochcraft.space/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://distro.epochcraft.space/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://distro.epochcraft.space/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://distro.epochcraft.space/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://distro.epochcraft.space/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://distro.epochcraft.space/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://distro.epochcraft.space/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://distro.epochcraft.space/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://distro.epochcraft.space/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://distro.epochcraft.space/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://distro.epochcraft.space/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://distro.epochcraft.space/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://distro.epochcraft.space/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://distro.epochcraft.space/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://distro.epochcraft.space/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://distro.epochcraft.space/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://distro.epochcraft.space/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://distro.epochcraft.space/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://distro.epochcraft.space/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://distro.epochcraft.space/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://distro.epochcraft.space/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://distro.epochcraft.space/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.0",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 267079,
+                "MD5": "5b26aba9f44796d54094022c1e73a49e",
+                "url": "https://distro.epochcraft.space/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.0/fmlloader-1.20.1-47.4.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.0",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170517,
+                "MD5": "68747d96f635b0a0dc9e070d3596a562",
+                "url": "https://distro.epochcraft.space/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.0/fmlearlydisplay-1.20.1-47.4.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.builtbroken.ai.improvements:aiimprovements:0.5.2@jar",
+          "name": "AI-Improvements",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 29553,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/AI-Improvements-1.20-0.5.2.jar",
+            "MD5": "9a6776ce2deab597d198e8755daa56ff"
+          }
+        },
+        {
+          "id": "com.github.alexmodguy:alexscaves:2.0.2@jar",
+          "name": "Alex's Caves",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 74871657,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/alexscaves-2.0.2.jar",
+            "MD5": "6c8793ee5e1aa852fdb430a9cdaccdc5"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:alexsmobs:1.22.9@jar",
+          "name": "Alex's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 26350793,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/alexsmobs-1.22.9.jar",
+            "MD5": "504050d1f2e2c3019b6f53377ca354c6"
+          }
+        },
+        {
+          "id": "com.almostreliable.unified:almostunified:1.20.1-0.9.4@jar",
+          "name": "AlmostUnified",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 212351,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/almostunified-forge-1.20.1-0.9.4.jar",
+            "MD5": "9de805f0b801ca034bb202aebd2e474b"
+          }
+        },
+        {
+          "id": "team.creative:ambientsounds:6.1.6@jar",
+          "name": "AmbientSounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 83885823,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/AmbientSounds_FORGE_v6.1.6_mc1.20.1.jar",
+            "MD5": "8a13e5db399335fb9ec1596abd97385c"
+          }
+        },
+        {
+          "id": "com.teammetallurgy:aquaculture:2.5.5@jar",
+          "name": "Aquaculture 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 601173,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/Aquaculture-1.20.1-2.5.5.jar",
+            "MD5": "515dde53d77858310af77cd93a5d1316"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "com.teamabnormals.atmospheric.core:atmospheric:6.1.0@jar",
+          "name": "Atmospheric",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5205105,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/atmospheric-1.20.1-6.1.0.jar",
+            "MD5": "22a89c33ff3592290e0c79a8cc54d470"
+          }
+        },
+        {
+          "id": "net.darkhax:attributefix:21.0.4@jar",
+          "name": "AttributeFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19471,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/AttributeFix-Forge-1.20.1-21.0.4.jar",
+            "MD5": "e8fb517833e21335106e9d4d1a39ecd4"
+          }
+        },
+        {
+          "id": "com.teamabnormals.autumnity.core:autumnity:5.0.2@jar",
+          "name": "Autumnity",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1221037,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/autumnity-1.20.1-5.0.2.jar",
+            "MD5": "c4e1eaba25862c035bddbe06cf90c599"
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:7.3.20@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 467586,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/balm-forge-1.20.1-7.3.20-all.jar",
+            "MD5": "3d3f076e2f0c338466beeeb23c4e08d5"
+          }
+        },
+        {
+          "id": "systems.alexander:bellsandwhistles:0.4.3-1.20.x@jar",
+          "name": "Create: Bells & Whistles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 199902,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/bellsandwhistles-0.4.5-1.20.x-Create6.0+.jar",
+            "MD5": "05c50f0abc8e5d389329e14b912c0603"
+          }
+        },
+        {
+          "id": "dev.wuffs:bcc:4.0.8@jar",
+          "name": "Better Compatibility Checker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 26540,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/BetterCompatibilityChecker-forge-4.0.8+mc1.20.1.jar",
+            "MD5": "6cda211453a4423157b1a7927b050cff"
+          }
+        },
+        {
+          "id": "biomesoplenty.core:biomesoplenty:18.0.0.592@jar",
+          "name": "Biomes O' Plenty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21800460,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/BiomesOPlenty-1.20.1-18.0.0.592.jar",
+            "MD5": "dd2ec3933263ff5ff2eb0bbc21d8a0f7"
+          }
+        },
+        {
+          "id": "com.furiusmax:bjornlib:1.0.19.5@jar",
+          "name": "BjornLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 226778,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/bjornlib-forge-1.0.19.5-1.20.1.jar",
+            "MD5": "eab574730a59691f19718c7106b866a0"
+          }
+        },
+        {
+          "id": "com.teamabnormals.blueprint.core:blueprint:7.1.2@jar",
+          "name": "Blueprint",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1137697,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/blueprint-1.20.1-7.1.2.jar",
+            "MD5": "d5186a4094755bc834432ac76a9b80a5"
+          }
+        },
+        {
+          "id": "earth.terrarium:botarium:2.3.4@jar",
+          "name": "Botarium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 157633,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/botarium-forge-1.20.1-2.3.4.jar",
+            "MD5": "c204f9d834da78a3972fc98da96730aa"
+          }
+        },
+        {
+          "id": "com.jopgood:cfwinfo:1.4.0@jar",
+          "name": "Create: Fuel & Water Information",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21339,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/cfwinfo-1.4.0.jar",
+            "MD5": "0a6ea050d59a473e7813828458b6ee5b"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:2.6.1@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3173637,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/citadel-2.6.1-1.20.1.jar",
+            "MD5": "d7c8be4b34cfd4db20ad1747b122d07c"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:12.0.0.4@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20299,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/Clumps-forge-1.20.1-12.0.0.4.jar",
+            "MD5": "c9efc71827df6ab51e8dd0e40c3d4975"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:configured:2.2.3@jar",
+          "name": "Configured",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 418929,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/configured-forge-1.20.1-2.2.3.jar",
+            "MD5": "9380dc31c599c523a5682a4025fceb92"
+          }
+        },
+        {
+          "id": "com.connectivity:connectivity:1.20.1-7.1@jar",
+          "name": "Connectivity Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 112550,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/connectivity-1.20.1-7.1.jar",
+            "MD5": "a4e4e9823e1df967bee1d62e6a505e8f"
+          }
+        },
+        {
+          "id": "com.blamejared:controlling:12.0.2@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 115280,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/Controlling-forge-1.20.1-12.0.2.jar",
+            "MD5": "952274bc9994bba9733e8747558f73fa"
+          }
+        },
+        {
+          "id": "com.corosus.coroutil.loader:coroutil:1.20.1-1.3.7@jar",
+          "name": "CoroUtil",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 64187,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/coroutil-forge-1.20.1-1.3.7.jar",
+            "MD5": "6fb9ccbe8c05c1da61c224d1127e9643"
+          }
+        },
+        {
+          "id": "de.maxhenkel:corpse:1.20.1-1.0.20@jar",
+          "name": "Corpse",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 244994,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/corpse-forge-1.20.1-1.0.20.jar",
+            "MD5": "143d3e76139de3b9186849f494a41af6"
+          }
+        },
+        {
+          "id": "generated.forgemod:crash_assistant:1.4.3@jar",
+          "name": "Crash Assistant",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 758562,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/crash_assistant-forge-1.4.3.jar",
+            "MD5": "d09df6d8e6221f0c57773fa20b97efe3"
+          }
+        },
+        {
+          "id": "com.hypherionmc:craterlib:2.1.3@jar",
+          "name": "CraterLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2006600,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/CraterLib-Forge-1.20-2.1.3.jar",
+            "MD5": "cf364845427a5b4dc485cc15305e0af6"
+          }
+        },
+        {
+          "id": "net.mcreator.createcompressed:create_compressed:2.1.0@jar",
+          "name": "Create Compressed",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 153989,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/create_compressed-2.1.0-forge-1.20.1.jar",
+            "MD5": "86b63d9245ba6e21c0421d021c104adb"
+          }
+        },
+        {
+          "id": "plus.dragons.createenchantmentindustry:create_enchantment_industry:1.3.2-for-create-6.0.3@jar",
+          "name": "Create Enchantment Industry",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 487764,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/create_enchantment_industry-1.3.2-for-create-6.0.3.jar",
+            "MD5": "10a6bd76065d49d2714a38ac34af78ea"
+          }
+        },
+        {
+          "id": "net.mcreator.createltabf:create_ltab_f:2.5.2@jar",
+          "name": "Create_ltab_f",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2414326,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/create_ltab_f-2.5.2.jar",
+            "MD5": "3846bce862355b27e0c9d359f9bb7606"
+          }
+        },
+        {
+          "id": "net.mcreator.createatam:create_things_and_misc:1.0.0@jar",
+          "name": "Create: things and misc",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1014347,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/create_misc_and_things_%201.20.1_4.0A.jar",
+            "MD5": "fc477f3364e0e6096f8619f610c94e17"
+          }
+        },
+        {
+          "id": "elocindev.create_questing:create_questing:1.0.0@jar",
+          "name": "Create Questing",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 581893,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/Create_Questing-FORGE-1.20.1-1.0.0.jar",
+            "MD5": "1c6a1051fa099b5b225a87ecd51416d5"
+          }
+        },
+        {
+          "id": "dev.astral:create_snt:0.6.9@jar",
+          "name": "Create_snt",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 269813,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/create_snt-0.6.9_forge.jar",
+            "MD5": "432948f9fa92c99ab5acde6bd26bf7b0"
+          }
+        },
+        {
+          "id": "com.getitemfromblock:create_tweaked_controllers:1.20.1-1.2.5@jar",
+          "name": "Create: Tweaked Controllers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 298502,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/create_tweaked_controllers-1.20.1-1.2.5.jar",
+            "MD5": "c47e374aeebb8a49512c4b42cda79a8c"
+          }
+        },
+        {
+          "id": "create_ultimate_factory:create_ultimate_factory:1.9.0@jar",
+          "name": "Create: Ultimate Factory",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 228160,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/create_ultimate_factory-1.9.0-forge-1.20.1.jar",
+            "MD5": "e4ba454e06ba78177f397164bd0880f4"
+          }
+        },
+        {
+          "id": "create_winery:create_winery:1.4.0@jar",
+          "name": "Create: Winery",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 504724,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/create_winery-1.4.0-forge-1.20.1.jar",
+            "MD5": "9ab793f3fd58917f6357230885e3490c"
+          }
+        },
+        {
+          "id": "com.simibubi:create:6.0.4@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18463134,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/create-1.20.1-6.0.4.jar",
+            "MD5": "9d274d57a664ae35e6efbef8595bcc29"
+          }
+        },
+        {
+          "id": "org.antarcticgardens.newage:create_new_age:1.1.3@jar",
+          "name": "Create: New Age",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 640172,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/create-new-age-forge-1.20.1-1.1.3.jar",
+            "MD5": "aeae3209e55aae7d6b794db1681bdc66"
+          }
+        },
+        {
+          "id": "net.mcreator.createstuffadditions:create_sa:2.0.9@jar",
+          "name": "Create Stuff & Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1349736,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/create-stuff-additions1.20.1_v2.0.9.jar",
+            "MD5": "fec02417983e8f66c2c18ab3bfb698fa"
+          }
+        },
+        {
+          "id": "com.mrh0:createaddition:1.20.1-1.3.1@jar",
+          "name": "Create Crafts & Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1547196,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/createaddition-1.20.1-1.3.1.jar",
+            "MD5": "0abfc0f6db9558cba6eaee44266a4447"
+          }
+        },
+        {
+          "id": "com.forsteri:createliquidfuel:2.1.1-1.20.1@jar",
+          "name": "Create Liquid Fuel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20245,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/createliquidfuel-2.1.1-1.20.1.jar",
+            "MD5": "41d2472841c5dc5d43adc52b27b3123b"
+          }
+        },
+        {
+          "id": "dev.ithundxr.createnumismatics:numismatics:1.0.15+forge-mc1.20.1@jar",
+          "name": "Create: Numismatics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 885623,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/CreateNumismatics-1.0.15+forge-mc1.20.1.jar",
+            "MD5": "4943d40efd8e79c800f495b572ad4282"
+          }
+        },
+        {
+          "id": "com.tom.createores:createoreexcavation:1.6.2@jar",
+          "name": "Create Ore Excavation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 430696,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/createoreexcavation-1.20-1.6.2.jar",
+            "MD5": "c214fdba74656d29b9abd99642586ac2"
+          }
+        },
+        {
+          "id": "createtaczauto:createtaczauto:1.3.7@jar",
+          "name": "Create: TacZ Automation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 585164,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/createtaczauto-1.3.7-forge-1.20.1.jar",
+            "MD5": "38e8a642eab76cb8e1140b5e091a695e"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.12.31@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1158550,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/CreativeCore_FORGE_v2.12.31_mc1.20.1.jar",
+            "MD5": "1ba328e0a3dfb34261c234b5f02f8935"
+          }
+        },
+        {
+          "id": "com.cupboard:cupboard:1.20.1-2.7@jar",
+          "name": "Cupboard utilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25983,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/cupboard-1.20.1-2.7.jar",
+            "MD5": "3620912474f47bf58d1fe5bfe133763a"
+          }
+        },
+        {
+          "id": "grondag.darkness:darkness:2.0.103@jar",
+          "name": "True Darkness",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 29331,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/darkness-forge-1.20.1-2.0.103-fork.jar",
+            "MD5": "93217dc8f8a6f2745073bb190f82df1f"
+          }
+        },
+        {
+          "id": "com.seibel:distanthorizons:2.3.0-b@jar",
+          "name": "Distant Horizons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17822756,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/DistantHorizons-fabric-forge-2.3.0-b-1.20.1.jar",
+            "MD5": "6be33c25227280254ddd1d6b9b9c7174"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:2.4.1@jar",
+          "name": "Entity Model Features",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 445642,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/entity_model_features_forge_1.20.1-2.4.1.jar",
+            "MD5": "d801a1f8c9425012b82619bcdec06666"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:6.2.9@jar",
+          "name": "Entity Texture Features",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 676887,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/entity_texture_features_forge_1.20.1-6.2.9.jar",
+            "MD5": "5364007c2f40cd1bfaf5037d7355ba31"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.7.3@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 77548,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/entityculling-forge-1.7.3-mc1.20.1.jar",
+            "MD5": "34ae0d54004066bac5c13ab2129978b8"
+          }
+        },
+        {
+          "id": "com.teamabnormals.environmental.core:environmental:4.0.1@jar",
+          "name": "Environmental",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7517535,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/environmental-1.20.1-4.0.1.jar",
+            "MD5": "1bccb2b69dbccdc39b20468bf8c6e725"
+          }
+        },
+        {
+          "id": "net.olafski:fastleafdecay:32@jar",
+          "name": "Fast Leaf Decay",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9835,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/FastLeafDecay-32.jar",
+            "MD5": "20df3e3525622d6ea38a243be828ef38"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123034,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftblibrary:2001.2.9@jar",
+          "name": "FTB Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 791841,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/ftb-library-forge-2001.2.9.jar",
+            "MD5": "cdf8b270d3ee2c403a26206b10e0a749"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbquests:2001.4.12@jar",
+          "name": "FTB Quests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1193063,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/ftb-quests-forge-2001.4.12.jar",
+            "MD5": "946229b24a5d665d96e93a27f3bac3ca"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbteams:2001.3.1@jar",
+          "name": "FTB Teams",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 248592,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/ftb-teams-forge-2001.3.1.jar",
+            "MD5": "98efb58ba7cecfb39034544eced0389f"
+          }
+        },
+        {
+          "id": "com.supermartijn642:fusion:1.2.5@jar",
+          "name": "Fusion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 525144,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/fusion-1.2.5-forge-mc1.20.1.jar",
+            "MD5": "f852d637e2a8d5e1bbe62f8c4e16762c"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.7.1.1@jar",
+          "name": "GeckoLib 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1014412,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.7.1.1.jar",
+            "MD5": "af1f10307572c9711e1b5b652dc9f0ff"
+          }
+        },
+        {
+          "id": "glitchcore:glitchcore:0.0.1.1@jar",
+          "name": "GlitchCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 87550,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+            "MD5": "6d24b09db12acdab40437a1929259352"
+          }
+        },
+        {
+          "id": "com.gpumemleakfix:gpumemleakfix:1.20.1-1.8@jar",
+          "name": "Gpu memory leak fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7997,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/gpumemleakfix-1.20.1-1.8.jar",
+            "MD5": "e5028e9da74761f26c00c546c8ebdc4d"
+          }
+        },
+        {
+          "id": "com.sudolev:interiors:0.5.6@jar",
+          "name": "Create: Interiors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 465540,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/interiors-0.5.6+forge-mc1.20.1-local.jar",
+            "MD5": "20974d4752c8aaec1bd451044728b2a0"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.12.3+forge@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 547769,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/Jade-1.20.1-Forge-11.12.3.jar",
+            "MD5": "253456fec5b1bd598a7abc12abfee0f5"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:jeed:1.20-2.2.5@jar",
+          "name": "Just Enough Effects Descriptions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 159288,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/jeed-1.20-2.2.5.jar",
+            "MD5": "6792ef4a197457dcff0b4353e956a94d"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.106@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1379220,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.106.jar",
+            "MD5": "245af433575aef3a47ae73492196018f"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.3@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7160405,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/journeymap-1.20.1-5.10.3-forge.jar",
+            "MD5": "2181bd6b7161f06726560b9382235611"
+          }
+        },
+        {
+          "id": "com.christofmeg:justenoughbreeding:1.5.0@jar",
+          "name": "Just Enough Breeding",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 139072,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/justenoughbreeding-forge-1.20-1.20.1-1.5.0.jar",
+            "MD5": "5b00e4a691a9d399484c633940faf360"
+          }
+        },
+        {
+          "id": "com.mrbysco:justenoughprofessions:3.0.1@jar",
+          "name": "Just Enough Professions (JEP)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 24607,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/JustEnoughProfessions-forge-1.20.1-3.0.1.jar",
+            "MD5": "1b5434032350a82a2be5da0b2fed7947"
+          }
+        },
+        {
+          "id": "jeresources:jeresources:1.4.0.247@jar",
+          "name": "Just Enough Resources",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 276231,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/JustEnoughResources-1.20.1-1.4.0.247.jar",
+            "MD5": "bd7166a2e9361ef5e8b616edfa2028f4"
+          }
+        },
+        {
+          "id": "generated.forgemod:kotlinforforge:4.11.0-all@jar",
+          "name": "Kotlinforforge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7193768,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/kotlinforforge-4.11.0-all.jar",
+            "MD5": "417caa90d17dc86cf7d24b802c2a5c56"
+          }
+        },
+        {
+          "id": "dev.latvian.mods:kubejs:2001.6.5-build.16@jar",
+          "name": "KubeJS",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1654660,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/kubejs-forge-2001.6.5-build.16.jar",
+            "MD5": "f4c6924bef764748d26ee51e4d4c0b00"
+          }
+        },
+        {
+          "id": "noobanidus.mods:lootr:0.7.35.90@jar",
+          "name": "Lootr",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 457647,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/lootr-forge-1.20-0.7.35.90.jar",
+            "MD5": "570d8e000bf17cc71eb0b26cfd4dc7a6"
+          }
+        },
+        {
+          "id": "com.mcwbridges.kikoz:mcwbridges:3.0.0@jar",
+          "name": "Macaw's Bridges",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 677705,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/mcw-bridges-3.0.0-mc1.20.1forge.jar",
+            "MD5": "27a5798467fc0799eab2505bb6a8f041"
+          }
+        },
+        {
+          "id": "com.mcwfences.kikoz:mcwfences:1.1.2@jar",
+          "name": "Macaw's Fences and Walls",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 522886,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/mcw-fences-1.1.2-mc1.20.1forge.jar",
+            "MD5": "729a8ce749bb6deff288ea1791ff9602"
+          }
+        },
+        {
+          "id": "com.mcwroofs.kikoz:mcwroofs:2.3.1@jar",
+          "name": "Macaw's Roofs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1837373,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/mcw-roofs-2.3.1-mc1.20.1forge.jar",
+            "MD5": "cacee547c4f32b57b0f238d68d4ddc2b"
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.20.2+mc1.20.1@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 821631,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/modernfix-forge-5.20.2+mc1.20.1.jar",
+            "MD5": "05ba904400eb9505f619689b0f5a220c"
+          }
+        },
+        {
+          "id": "com.apothic0n.moltenvents:molten_vents:2.0.9@jar",
+          "name": "Molten Vents",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 96093,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/molten_vents-1.20.1-2.0.9.jar",
+            "MD5": "671779bc2f7acd1ffe569217c5c6315e"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:moonlight:1.20-2.13.79@jar",
+          "name": "Moonlight Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1251235,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/moonlight-1.20-2.13.79-forge.jar",
+            "MD5": "6f219b0534c29ee870cd9a275eba19a8"
+          }
+        },
+        {
+          "id": "elocindev.necronomicon:necronomicon:1.6.0@jar",
+          "name": "Necronomicon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33251,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/Necronomicon-Forge-1.6.0+1.20.1.jar",
+            "MD5": "a1f1433ea551925436e6b170ac2ff619"
+          }
+        },
+        {
+          "id": "net.blay09.mods:netherportalfix:13.0.1@jar",
+          "name": "NetherPortalFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 217831,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/netherportalfix-forge-1.20-13.0.1.jar",
+            "MD5": "f5efd2c259b0538da0f62bb2d9dc2106"
+          }
+        },
+        {
+          "id": "com.aizistral:nochatreports:1.20.1-v2.2.2@jar",
+          "name": "No Chat Reports",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 272740,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/NoChatReports-FORGE-1.20.1-v2.2.2.jar",
+            "MD5": "3153d1e860c6fefe6dac26efdb5c40c6"
+          }
+        },
+        {
+          "id": "elocindev.opacpvp:opacpvp:1.0.0@jar",
+          "name": "Open Parties PvP Support",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9214,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/opacpvp-forge-1.0.1-1.20.1.jar",
+            "MD5": "0420cb7346ea4c10ffb755c4104a5e37"
+          }
+        },
+        {
+          "id": "xaero.pac:openpartiesandclaims:0.24.0@jar",
+          "name": "Open Parties and Claims",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1246814,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/open-parties-and-claims-forge-1.20.1-0.24.0.jar",
+            "MD5": "dc2c65305e9ce2ac6ff1c5d5801a31f8"
+          }
+        },
+        {
+          "id": "fuzs.pickupnotifier:pickupnotifier:8.0.0@jar",
+          "name": "Pick Up Notifier",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 102164,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/PickUpNotifier-v8.0.0-1.20.1-Forge.jar",
+            "MD5": "c1004011e796ef62010dcb03e9597cdc"
+          }
+        },
+        {
+          "id": "fuzs.puzzleslib.impl:puzzleslib:8.1.29@jar",
+          "name": "Puzzles Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1321050,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/PuzzlesLib-v8.1.29-1.20.1-Forge.jar",
+            "MD5": "67ab6af1d19c585fedc9f1e44bf91a4d"
+          }
+        },
+        {
+          "id": "org.violetmoon.quark.base:quark:4.0-461@jar",
+          "name": "Quark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14892320,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/Quark-4.0-461.jar",
+            "MD5": "c1fa0690e1dce6ec22f7e3019c287d2d"
+          }
+        },
+        {
+          "id": "dev.latvian.mods.rhino.mod:rhino:2001.2.3-build.10@jar",
+          "name": "Rhino",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1798244,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/rhino-forge-2001.2.3-build.10.jar",
+            "MD5": "59387620b0ef6becbff02c7c1636ad3e"
+          }
+        },
+        {
+          "id": "com.blamejared:searchables:1.0.3@jar",
+          "name": "Searchables",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 77732,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/Searchables-forge-1.20.1-1.0.3.jar",
+            "MD5": "9f5418e9c08c18a375ef42fada4bcef2"
+          }
+        },
+        {
+          "id": "sereneseasons.forge.core:sereneseasons:9.1.0.1@jar",
+          "name": "Serene Seasons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 159837,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/SereneSeasons-forge-1.20.1-9.1.0.1.jar",
+            "MD5": "922d396f85784fec027d18342ecbfb21"
+          }
+        },
+        {
+          "id": "me.hypherionmc.simplerpc.loaders:simplerpc:3.3.3@jar",
+          "name": "Simple RPC",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 214943,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/SimpleRPC-Universal-3.3.3.jar",
+            "MD5": "3634abdd8e7be1471d8a6ed9a50386b8"
+          }
+        },
+        {
+          "id": "com.possible_triangle:sliceanddice:3.4.0@jar",
+          "name": "Create Slice & Dice",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1032971,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/sliceanddice-forge-3.4.0.jar",
+            "MD5": "2b17c8e6a214b845c2ab68525857d624"
+          }
+        },
+        {
+          "id": "com.smoothchunk:smoothchunk:1.20.1-4.1@jar",
+          "name": "Smoothchunk mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14249,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/smoothchunk-1.20.1-4.1.jar",
+            "MD5": "66c9037777d4cafe6d5464f6eff5d8e2"
+          }
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.1-1.4.8@jar",
+          "name": "Sound Physics Remastered",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 197076,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/sound-physics-remastered-forge-1.20.1-1.4.8.jar",
+            "MD5": "d4681103e45776840799b25a61997e7b"
+          }
+        },
+        {
+          "id": "com.supermartijn642.configlib:supermartijn642configlib:1.1.8@jar",
+          "name": "SuperMartijn642's Config Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 206584,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+            "MD5": "cbece61946d4e059e90806c19dd66082"
+          }
+        },
+        {
+          "id": "com.supermartijn642.core:supermartijn642corelib:1.1.18@jar",
+          "name": "SuperMartijn642's Core Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 515362,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/supermartijn642corelib-1.1.18-forge-mc1.20.1.jar",
+            "MD5": "6559d43627646f16fbe02de085e98d5c"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:supplementaries:1.20-3.1.20@jar",
+          "name": "Supplementaries",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14813470,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/supplementaries-1.20-3.1.20.jar",
+            "MD5": "3b5d9920fab5939a72b1f96a3a5b12f2"
+          }
+        },
+        {
+          "id": "net.mcreator.taczc:tacz_c:1.0.1@jar",
+          "name": "Timeless and Classics Zero: Creatified",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 422269,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/tacz_c-1.0.1-forge-1.20.1.jar",
+            "MD5": "af59605b7cad2e89df3c2e7420f9e6ad"
+          }
+        },
+        {
+          "id": "com.tacz.guns:tacz:1.1.4-hotfix@jar",
+          "name": "Timeless & Classics Guns: Zero",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 39318868,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/tacz-1.20.1-1.1.4-hotfix-all.jar",
+            "MD5": "988148c4bf2235926a5c25d9cf24273c"
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:3.0.1.10@jar",
+          "name": "TerraBlender",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 107532,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/TerraBlender-forge-1.20.1-3.0.1.10.jar",
+            "MD5": "9d8e305b95ae5a8f7b446d6346324267"
+          }
+        },
+        {
+          "id": "generated.forgemod:terralith:2.5.4@jar",
+          "name": "Terralith",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3156901,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/Terralith_1.20.x_v2.5.4.jar",
+            "MD5": "b143cfd648086c68d7f47a86b8994ee3"
+          }
+        },
+        {
+          "id": "dev.ghen:thirst:1.20.1-1.3.16@jar",
+          "name": "Thirst was Taken",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 220925,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/ThirstWasTaken-1.20.1-1.3.16.jar",
+            "MD5": "a243933649fa32023db6a00675beae20"
+          }
+        },
+        {
+          "id": "com.tom.storagemod:toms_storage:1.7.0@jar",
+          "name": "Tom's Simple Storage Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 519961,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/toms_storage-1.20-1.7.0.jar",
+            "MD5": "a12cba85bc79469050311446e3d93490"
+          }
+        },
+        {
+          "id": "fuzs.visualworkbench:visualworkbench:8.0.0@jar",
+          "name": "Visual Workbench",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 82055,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/VisualWorkbench-v8.0.0-1.20.1-Forge.jar",
+            "MD5": "d741bc2d4d3a385116d094b874474a6b"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.1-2.5.26@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7729085,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.5.26.jar",
+            "MD5": "e8f40809f3ba23a568cf6a51bc4abf5d"
+          }
+        },
+        {
+          "id": "com.corosus.watut.loader:watut:1.20.1-1.2.3@jar",
+          "name": "What Are They Up To",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 435496,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/watut-forge-1.20.1-1.2.3.jar",
+            "MD5": "345d3ecdf94dffaa0e3ba55538c65f80"
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:14.1.11@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 487684,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/waystones-forge-1.20.1-14.1.11.jar",
+            "MD5": "6167f2d7c2c3ff42929bd39b50cabd83"
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:7.2.15+6463-5ca4dff@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5825402,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/worldedit-mod-7.2.15.jar",
+            "MD5": "bd0e7cff7896348faab92e43300d0639"
+          }
+        },
+        {
+          "id": "tfar.xlpackets:xlpackets:1.18.2-2.1@jar",
+          "name": "XL Packets",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4786,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/xlpackets-1.18.2-2.1.jar",
+            "MD5": "ee7f9b5dec68637fb20ba3849b2bff10"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.20-Forge-4.0.6@jar",
+          "name": "YUNG's API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 370524,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/YungsApi-1.20-Forge-4.0.6.jar",
+            "MD5": "fe79f43dba8edbb8ede99f4e358e5b0c"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterdeserttemples:1.20-Forge-3.0.3@jar",
+          "name": "YUNG's Better Desert Temples",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 918012,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
+            "MD5": "183e2c817e9094ce215c9e70c114825f"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterdungeons:1.20-Forge-4.0.4@jar",
+          "name": "YUNG's Better Dungeons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 792381,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+            "MD5": "2de2f1be8f528ad139003bb5c73d49f3"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterendisland:1.20-Forge-2.0.6@jar",
+          "name": "YUNG's Better End Island",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 387111,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
+            "MD5": "7f5ed661e5478668a91ea199fba75fb3"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterjungletemples:1.20-Forge-2.0.5@jar",
+          "name": "YUNG's Better Jungle Temples",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 806652,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/YungsBetterJungleTemples-1.20-Forge-2.0.5.jar",
+            "MD5": "abf4f9ef692311aef1eccb98bcee8956"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:bettermineshafts:1.20-Forge-4.0.4@jar",
+          "name": "YUNG's Better Mineshafts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 492998,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+            "MD5": "fe8d205c98cb02840d46646fb7cf5ab8"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterfortresses:1.20-Forge-2.0.6@jar",
+          "name": "YUNG's Better Nether Fortresses",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 619255,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+            "MD5": "8f0011690923efb6e2d59514181f0bc9"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betteroceanmonuments:1.20-Forge-3.0.4@jar",
+          "name": "YUNG's Better Ocean Monuments",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1033262,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+            "MD5": "467336218d681221ef8d875b226eb1bc"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterstrongholds:1.20-Forge-4.0.3@jar",
+          "name": "YUNG's Better Strongholds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 473564,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+            "MD5": "8c00ed5d2bab232040a1d4d0ef746ae6"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterwitchhuts:1.20-Forge-3.0.3@jar",
+          "name": "YUNG's Better Witch Huts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 179190,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/YungsBetterWitchHuts-1.20-Forge-3.0.3.jar",
+            "MD5": "cb6d73e271fdfb2e8698b7c6bd9df0d9"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsbridges:1.20-Forge-4.0.3@jar",
+          "name": "YUNG's Bridges",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 136236,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/YungsBridges-1.20-Forge-4.0.3.jar",
+            "MD5": "9c39322cd0e271980b4449bc42fc17ac"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsextras:1.20-Forge-4.0.3@jar",
+          "name": "YUNG's Extras",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 200341,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/YungsExtras-1.20-Forge-4.0.3.jar",
+            "MD5": "6a592ed7502e13d840fa25587325202d"
+          }
+        },
+        {
+          "id": "org.violetmoon.zetaimplforge.mod:zeta:1.0-28@jar",
+          "name": "Zeta",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1006240,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/Zeta-1.0-28.jar",
+            "MD5": "d6daccedc6cdcdc9a3d14168208f25b1"
+          }
+        },
+        {
+          "id": "com.corosus:zombieawareness:1.20.1-1.13.1@jar",
+          "name": "Zombie Awareness",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 291139,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/forgemods/required/zombieawareness-1.20.1-1.13.1.jar",
+            "MD5": "bf52632df04fceed82ad7073b8d14240"
+          }
+        },
+        {
+          "id": "aiimprovements-common.toml",
+          "name": "aiimprovements-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6211,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/aiimprovements-common.toml",
+            "MD5": "71450aa2f5b19702f457be0d519bf725",
+            "path": "config/aiimprovements-common.toml"
+          }
+        },
+        {
+          "id": "alexscaves-client.toml",
+          "name": "alexscaves-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1900,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexscaves-client.toml",
+            "MD5": "74e71cbc05402bd28f07a68bb7d11687",
+            "path": "config/alexscaves-client.toml"
+          }
+        },
+        {
+          "id": "alexscaves-general.toml",
+          "name": "alexscaves-general.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6084,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexscaves-general.toml",
+            "MD5": "8c8e7794b876e01d3facffcea3f2e91b",
+            "path": "config/alexscaves-general.toml"
+          }
+        },
+        {
+          "id": "abyssal_chasm.json",
+          "name": "abyssal_chasm.json",
+          "type": "File",
+          "artifact": {
+            "size": 272,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexscaves_biome_generation/abyssal_chasm.json",
+            "MD5": "e2381ab2cc691c9380e20047894f2e92",
+            "path": "config/alexscaves_biome_generation/abyssal_chasm.json"
+          }
+        },
+        {
+          "id": "candy_cavity.json",
+          "name": "candy_cavity.json",
+          "type": "File",
+          "artifact": {
+            "size": 227,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexscaves_biome_generation/candy_cavity.json",
+            "MD5": "83ee4999c8084d79129f0d8de26feadf",
+            "path": "config/alexscaves_biome_generation/candy_cavity.json"
+          }
+        },
+        {
+          "id": "forlorn_hollows.json",
+          "name": "forlorn_hollows.json",
+          "type": "File",
+          "artifact": {
+            "size": 226,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexscaves_biome_generation/forlorn_hollows.json",
+            "MD5": "cb3ff6dc8f527e3ce4f20cf2615c194f",
+            "path": "config/alexscaves_biome_generation/forlorn_hollows.json"
+          }
+        },
+        {
+          "id": "magnetic_caves.json",
+          "name": "magnetic_caves.json",
+          "type": "File",
+          "artifact": {
+            "size": 226,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexscaves_biome_generation/magnetic_caves.json",
+            "MD5": "48aba76fb94fa1f7f24e3f6f4b1acd3f",
+            "path": "config/alexscaves_biome_generation/magnetic_caves.json"
+          }
+        },
+        {
+          "id": "primordial_caves.json",
+          "name": "primordial_caves.json",
+          "type": "File",
+          "artifact": {
+            "size": 227,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexscaves_biome_generation/primordial_caves.json",
+            "MD5": "700aa5a9fbdebeab8346509259372a27",
+            "path": "config/alexscaves_biome_generation/primordial_caves.json"
+          }
+        },
+        {
+          "id": "toxic_caves.json",
+          "name": "toxic_caves.json",
+          "type": "File",
+          "artifact": {
+            "size": 226,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexscaves_biome_generation/toxic_caves.json",
+            "MD5": "6b2614e0035375fb4a0c74190658db7d",
+            "path": "config/alexscaves_biome_generation/toxic_caves.json"
+          }
+        },
+        {
+          "id": "alligator_snapping_turtle_spawns.json",
+          "name": "alligator_snapping_turtle_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 754,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/alligator_snapping_turtle_spawns.json",
+            "MD5": "e880e0c7e38986fb1f7a8885a892b0fc",
+            "path": "config/alexsmobs/alligator_snapping_turtle_spawns.json"
+          }
+        },
+        {
+          "id": "anaconda_spawns.json",
+          "name": "anaconda_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1036,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/anaconda_spawns.json",
+            "MD5": "74d2b1bc857e9acb8321f296567a8f7f",
+            "path": "config/alexsmobs/anaconda_spawns.json"
+          }
+        },
+        {
+          "id": "anteater_spawns.json",
+          "name": "anteater_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1166,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/anteater_spawns.json",
+            "MD5": "2040bb544aff0345a335fd895cd0022c",
+            "path": "config/alexsmobs/anteater_spawns.json"
+          }
+        },
+        {
+          "id": "bald_eagle_spawns.json",
+          "name": "bald_eagle_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 2723,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/bald_eagle_spawns.json",
+            "MD5": "dd9229ac98bbf83a1309d4b1e3770fd5",
+            "path": "config/alexsmobs/bald_eagle_spawns.json"
+          }
+        },
+        {
+          "id": "banana_slug_spawns.json",
+          "name": "banana_slug_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1697,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/banana_slug_spawns.json",
+            "MD5": "6aec0b8dd4904343a50e7fb0a37b2912",
+            "path": "config/alexsmobs/banana_slug_spawns.json"
+          }
+        },
+        {
+          "id": "bison_spawns.json",
+          "name": "bison_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1761,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/bison_spawns.json",
+            "MD5": "729766841964832662fb610b6a661dc4",
+            "path": "config/alexsmobs/bison_spawns.json"
+          }
+        },
+        {
+          "id": "blobfish_spawns.json",
+          "name": "blobfish_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 146,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/blobfish_spawns.json",
+            "MD5": "ad3201c8f95a758dbe8496d677756a5e",
+            "path": "config/alexsmobs/blobfish_spawns.json"
+          }
+        },
+        {
+          "id": "blue_jay_spawns.json",
+          "name": "blue_jay_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 4020,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/blue_jay_spawns.json",
+            "MD5": "9b797aa57e7c173d5e4a8f034f267dff",
+            "path": "config/alexsmobs/blue_jay_spawns.json"
+          }
+        },
+        {
+          "id": "bone_serpent_spawns.json",
+          "name": "bone_serpent_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 257,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/bone_serpent_spawns.json",
+            "MD5": "7f0b198410364ba04743be1a24f901db",
+            "path": "config/alexsmobs/bone_serpent_spawns.json"
+          }
+        },
+        {
+          "id": "bunfungus_spawns.json",
+          "name": "bunfungus_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 486,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/bunfungus_spawns.json",
+            "MD5": "e585908f8d3914a77836461f2f136848",
+            "path": "config/alexsmobs/bunfungus_spawns.json"
+          }
+        },
+        {
+          "id": "cachalot_whale_beached_spawns.json",
+          "name": "cachalot_whale_beached_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 642,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/cachalot_whale_beached_spawns.json",
+            "MD5": "b779f228a334a5be8eaa5f845664105c",
+            "path": "config/alexsmobs/cachalot_whale_beached_spawns.json"
+          }
+        },
+        {
+          "id": "cachalot_whale_spawns.json",
+          "name": "cachalot_whale_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 893,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/cachalot_whale_spawns.json",
+            "MD5": "53158516acce1c7ce2d05e0a61ff5965",
+            "path": "config/alexsmobs/cachalot_whale_spawns.json"
+          }
+        },
+        {
+          "id": "caiman_spawns.json",
+          "name": "caiman_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 291,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/caiman_spawns.json",
+            "MD5": "0443b3f49eb26ce302434cf0af666b90",
+            "path": "config/alexsmobs/caiman_spawns.json"
+          }
+        },
+        {
+          "id": "capuchin_monkey_spawns.json",
+          "name": "capuchin_monkey_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1184,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/capuchin_monkey_spawns.json",
+            "MD5": "61f854072c18a0b127bb37c01b33a0ae",
+            "path": "config/alexsmobs/capuchin_monkey_spawns.json"
+          }
+        },
+        {
+          "id": "catfish_spawns.json",
+          "name": "catfish_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1097,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/catfish_spawns.json",
+            "MD5": "f0234087612d8035344fbfb634cebfa9",
+            "path": "config/alexsmobs/catfish_spawns.json"
+          }
+        },
+        {
+          "id": "cave_centipede_spawns.json",
+          "name": "cave_centipede_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 2200,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/cave_centipede_spawns.json",
+            "MD5": "a6fcbacb06418e1c951695b0f4919f13",
+            "path": "config/alexsmobs/cave_centipede_spawns.json"
+          }
+        },
+        {
+          "id": "cockroach_spawns.json",
+          "name": "cockroach_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 2085,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/cockroach_spawns.json",
+            "MD5": "4b8fb651c60044198150aa49c4193dcc",
+            "path": "config/alexsmobs/cockroach_spawns.json"
+          }
+        },
+        {
+          "id": "comb_jelly_spawns.json",
+          "name": "comb_jelly_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 414,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/comb_jelly_spawns.json",
+            "MD5": "e9fa2345daa80ad12a849fe96ea656f9",
+            "path": "config/alexsmobs/comb_jelly_spawns.json"
+          }
+        },
+        {
+          "id": "cosmaw_spawns.json",
+          "name": "cosmaw_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 371,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/cosmaw_spawns.json",
+            "MD5": "99ec85d1693bdd51d1970b9bfba84267",
+            "path": "config/alexsmobs/cosmaw_spawns.json"
+          }
+        },
+        {
+          "id": "cosmic_cod_spawns.json",
+          "name": "cosmic_cod_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 139,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/cosmic_cod_spawns.json",
+            "MD5": "84b1c3b63a2e5656da5478c844a5ad49",
+            "path": "config/alexsmobs/cosmic_cod_spawns.json"
+          }
+        },
+        {
+          "id": "crimson_mosquito_spawns.json",
+          "name": "crimson_mosquito_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 785,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/crimson_mosquito_spawns.json",
+            "MD5": "0c095c6657c6df75653ab9a0b049b4e1",
+            "path": "config/alexsmobs/crimson_mosquito_spawns.json"
+          }
+        },
+        {
+          "id": "crocodile_spawns.json",
+          "name": "crocodile_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1007,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/crocodile_spawns.json",
+            "MD5": "062f820f53eee3c3a4eed7621a4d96c3",
+            "path": "config/alexsmobs/crocodile_spawns.json"
+          }
+        },
+        {
+          "id": "crow_spawns.json",
+          "name": "crow_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 5146,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/crow_spawns.json",
+            "MD5": "607a09f65c8023448ad7828e29bde4e6",
+            "path": "config/alexsmobs/crow_spawns.json"
+          }
+        },
+        {
+          "id": "devils_hole_pupfish_spawns.json",
+          "name": "devils_hole_pupfish_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/devils_hole_pupfish_spawns.json",
+            "MD5": "2c88b50ebef0c2d8cefd7fec53cc1b31",
+            "path": "config/alexsmobs/devils_hole_pupfish_spawns.json"
+          }
+        },
+        {
+          "id": "dropbear_spawns.json",
+          "name": "dropbear_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 403,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/dropbear_spawns.json",
+            "MD5": "95aa6694d6dd2f14fcfcedc28f5698e9",
+            "path": "config/alexsmobs/dropbear_spawns.json"
+          }
+        },
+        {
+          "id": "elephant_spawns.json",
+          "name": "elephant_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1163,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/elephant_spawns.json",
+            "MD5": "1032996d6a2cac873766f7a443d44810",
+            "path": "config/alexsmobs/elephant_spawns.json"
+          }
+        },
+        {
+          "id": "emu_spawns.json",
+          "name": "emu_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1661,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/emu_spawns.json",
+            "MD5": "3eb32cae8d7825df19055f0b673481ec",
+            "path": "config/alexsmobs/emu_spawns.json"
+          }
+        },
+        {
+          "id": "endergrade_spawns.json",
+          "name": "endergrade_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 250,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/endergrade_spawns.json",
+            "MD5": "fe07337e303bd453f45f00ec63fa9c0a",
+            "path": "config/alexsmobs/endergrade_spawns.json"
+          }
+        },
+        {
+          "id": "enderiophage_spawns.json",
+          "name": "enderiophage_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 603,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/enderiophage_spawns.json",
+            "MD5": "4ab64e4848a83c605d54ade54fdf0702",
+            "path": "config/alexsmobs/enderiophage_spawns.json"
+          }
+        },
+        {
+          "id": "farseer.json",
+          "name": "farseer.json",
+          "type": "File",
+          "artifact": {
+            "size": 266,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/farseer.json",
+            "MD5": "337b5b31ce112b2c614749d2e1047254",
+            "path": "config/alexsmobs/farseer.json"
+          }
+        },
+        {
+          "id": "flutter_spawns.json",
+          "name": "flutter_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 147,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/flutter_spawns.json",
+            "MD5": "1ab7408c8c7997d1ca595bdaa531820b",
+            "path": "config/alexsmobs/flutter_spawns.json"
+          }
+        },
+        {
+          "id": "flying_fish_spawns.json",
+          "name": "flying_fish_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 716,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/flying_fish_spawns.json",
+            "MD5": "7bf21cd1ccc1499470e52d91402a899f",
+            "path": "config/alexsmobs/flying_fish_spawns.json"
+          }
+        },
+        {
+          "id": "fly_spawns.json",
+          "name": "fly_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/fly_spawns.json",
+            "MD5": "2c88b50ebef0c2d8cefd7fec53cc1b31",
+            "path": "config/alexsmobs/fly_spawns.json"
+          }
+        },
+        {
+          "id": "frilled_shark_spawns.json",
+          "name": "frilled_shark_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 146,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/frilled_shark_spawns.json",
+            "MD5": "ad3201c8f95a758dbe8496d677756a5e",
+            "path": "config/alexsmobs/frilled_shark_spawns.json"
+          }
+        },
+        {
+          "id": "froststalker_spawns.json",
+          "name": "froststalker_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 934,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/froststalker_spawns.json",
+            "MD5": "2a017b04fa69a371da739dca3dccfaeb",
+            "path": "config/alexsmobs/froststalker_spawns.json"
+          }
+        },
+        {
+          "id": "gazelle_spawns.json",
+          "name": "gazelle_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1050,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/gazelle_spawns.json",
+            "MD5": "397912ee2f4758bf87c6e017fc8c3dc0",
+            "path": "config/alexsmobs/gazelle_spawns.json"
+          }
+        },
+        {
+          "id": "gelada_monkey_spawns.json",
+          "name": "gelada_monkey_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1001,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/gelada_monkey_spawns.json",
+            "MD5": "c229e44c5b5bd924b2449149c1fabac7",
+            "path": "config/alexsmobs/gelada_monkey_spawns.json"
+          }
+        },
+        {
+          "id": "giant_squid_spawns.json",
+          "name": "giant_squid_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 146,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/giant_squid_spawns.json",
+            "MD5": "ad3201c8f95a758dbe8496d677756a5e",
+            "path": "config/alexsmobs/giant_squid_spawns.json"
+          }
+        },
+        {
+          "id": "gorilla_spawns.json",
+          "name": "gorilla_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1053,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/gorilla_spawns.json",
+            "MD5": "803b7292137cbeece7aaa1d69e04b5b2",
+            "path": "config/alexsmobs/gorilla_spawns.json"
+          }
+        },
+        {
+          "id": "grizzly_bear_spawns.json",
+          "name": "grizzly_bear_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 4020,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/grizzly_bear_spawns.json",
+            "MD5": "9b797aa57e7c173d5e4a8f034f267dff",
+            "path": "config/alexsmobs/grizzly_bear_spawns.json"
+          }
+        },
+        {
+          "id": "guster_spawns.json",
+          "name": "guster_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1132,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/guster_spawns.json",
+            "MD5": "9f7fac3c24c356a767bce153106054dd",
+            "path": "config/alexsmobs/guster_spawns.json"
+          }
+        },
+        {
+          "id": "hammerhead_shark_spawns.json",
+          "name": "hammerhead_shark_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 254,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/hammerhead_shark_spawns.json",
+            "MD5": "3e1c6fd6a63f92c5784cd66565dfb1f7",
+            "path": "config/alexsmobs/hammerhead_shark_spawns.json"
+          }
+        },
+        {
+          "id": "hummingbird_spawns.json",
+          "name": "hummingbird_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 3029,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/hummingbird_spawns.json",
+            "MD5": "4ab2f69a298dba2dd6de993426aa1642",
+            "path": "config/alexsmobs/hummingbird_spawns.json"
+          }
+        },
+        {
+          "id": "jerboa_spawns.json",
+          "name": "jerboa_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1252,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/jerboa_spawns.json",
+            "MD5": "1e43a85b07df2edeaed6affb2eb06eb5",
+            "path": "config/alexsmobs/jerboa_spawns.json"
+          }
+        },
+        {
+          "id": "kangaroo_spawns.json",
+          "name": "kangaroo_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1661,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/kangaroo_spawns.json",
+            "MD5": "3eb32cae8d7825df19055f0b673481ec",
+            "path": "config/alexsmobs/kangaroo_spawns.json"
+          }
+        },
+        {
+          "id": "komodo_dragon_spawns.json",
+          "name": "komodo_dragon_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 775,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/komodo_dragon_spawns.json",
+            "MD5": "bb0e841a9cf2784c27209ab46af2ab58",
+            "path": "config/alexsmobs/komodo_dragon_spawns.json"
+          }
+        },
+        {
+          "id": "laviathan_spawns.json",
+          "name": "laviathan_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 142,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/laviathan_spawns.json",
+            "MD5": "477bc268eb72dc151845a22729de3fe8",
+            "path": "config/alexsmobs/laviathan_spawns.json"
+          }
+        },
+        {
+          "id": "leafcutter_anthill_spawns.json",
+          "name": "leafcutter_anthill_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1166,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/leafcutter_anthill_spawns.json",
+            "MD5": "2040bb544aff0345a335fd895cd0022c",
+            "path": "config/alexsmobs/leafcutter_anthill_spawns.json"
+          }
+        },
+        {
+          "id": "lobster_spawns.json",
+          "name": "lobster_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 398,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/lobster_spawns.json",
+            "MD5": "3284cadc1438c85425a3621a016e6eba",
+            "path": "config/alexsmobs/lobster_spawns.json"
+          }
+        },
+        {
+          "id": "maned_wolf_spawns.json",
+          "name": "maned_wolf_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1037,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/maned_wolf_spawns.json",
+            "MD5": "c21feac193fa689955ac90f659e1f0c2",
+            "path": "config/alexsmobs/maned_wolf_spawns.json"
+          }
+        },
+        {
+          "id": "mantis_shrimp_spawns.json",
+          "name": "mantis_shrimp_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 385,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/mantis_shrimp_spawns.json",
+            "MD5": "c0a4157361a392c8a4d4e32d95bcc46f",
+            "path": "config/alexsmobs/mantis_shrimp_spawns.json"
+          }
+        },
+        {
+          "id": "mimicube_spawns.json",
+          "name": "mimicube_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 365,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/mimicube_spawns.json",
+            "MD5": "5dfd54d2860bbecb3d63d3a0cbc42752",
+            "path": "config/alexsmobs/mimicube_spawns.json"
+          }
+        },
+        {
+          "id": "mimic_octopus_spawns.json",
+          "name": "mimic_octopus_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 373,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/mimic_octopus_spawns.json",
+            "MD5": "468f301a2a863dc3c56c0dffc967fb73",
+            "path": "config/alexsmobs/mimic_octopus_spawns.json"
+          }
+        },
+        {
+          "id": "moose_spawns.json",
+          "name": "moose_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 2291,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/moose_spawns.json",
+            "MD5": "9352df8e11cc9d6c49756868320ff3bb",
+            "path": "config/alexsmobs/moose_spawns.json"
+          }
+        },
+        {
+          "id": "mudskipper_spawns.json",
+          "name": "mudskipper_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 291,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/mudskipper_spawns.json",
+            "MD5": "0443b3f49eb26ce302434cf0af666b90",
+            "path": "config/alexsmobs/mudskipper_spawns.json"
+          }
+        },
+        {
+          "id": "mungus_spawns.json",
+          "name": "mungus_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 486,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/mungus_spawns.json",
+            "MD5": "e585908f8d3914a77836461f2f136848",
+            "path": "config/alexsmobs/mungus_spawns.json"
+          }
+        },
+        {
+          "id": "murmur.json",
+          "name": "murmur.json",
+          "type": "File",
+          "artifact": {
+            "size": 2200,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/murmur.json",
+            "MD5": "a6fcbacb06418e1c951695b0f4919f13",
+            "path": "config/alexsmobs/murmur.json"
+          }
+        },
+        {
+          "id": "orca_spawns.json",
+          "name": "orca_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 255,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/orca_spawns.json",
+            "MD5": "7c9a514102d327b8d9ba16b19a991049",
+            "path": "config/alexsmobs/orca_spawns.json"
+          }
+        },
+        {
+          "id": "platypus_spawns.json",
+          "name": "platypus_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 625,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/platypus_spawns.json",
+            "MD5": "058a3971fb93597c04c1769bfe265fb9",
+            "path": "config/alexsmobs/platypus_spawns.json"
+          }
+        },
+        {
+          "id": "potoo_spawns.json",
+          "name": "potoo_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 148,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/potoo_spawns.json",
+            "MD5": "d1511fa5b0562676dab091599bc838a2",
+            "path": "config/alexsmobs/potoo_spawns.json"
+          }
+        },
+        {
+          "id": "raccoon_spawns.json",
+          "name": "raccoon_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 3712,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/raccoon_spawns.json",
+            "MD5": "ef2fd8cf69fc21a78c45e79c1a1bf5a7",
+            "path": "config/alexsmobs/raccoon_spawns.json"
+          }
+        },
+        {
+          "id": "rain_frog_spawns.json",
+          "name": "rain_frog_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1252,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/rain_frog_spawns.json",
+            "MD5": "1e43a85b07df2edeaed6affb2eb06eb5",
+            "path": "config/alexsmobs/rain_frog_spawns.json"
+          }
+        },
+        {
+          "id": "rattlesnake_spawns.json",
+          "name": "rattlesnake_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1646,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/rattlesnake_spawns.json",
+            "MD5": "c9f3ffa55ec8cc5d57ed9a8bcb0ea1fe",
+            "path": "config/alexsmobs/rattlesnake_spawns.json"
+          }
+        },
+        {
+          "id": "rhinoceros_spawns.json",
+          "name": "rhinoceros_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1050,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/rhinoceros_spawns.json",
+            "MD5": "397912ee2f4758bf87c6e017fc8c3dc0",
+            "path": "config/alexsmobs/rhinoceros_spawns.json"
+          }
+        },
+        {
+          "id": "roadrunner_spawns.json",
+          "name": "roadrunner_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1646,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/roadrunner_spawns.json",
+            "MD5": "c9f3ffa55ec8cc5d57ed9a8bcb0ea1fe",
+            "path": "config/alexsmobs/roadrunner_spawns.json"
+          }
+        },
+        {
+          "id": "rocky_roller_spawns.json",
+          "name": "rocky_roller_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 673,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/rocky_roller_spawns.json",
+            "MD5": "7f40733890dcc5279c2addea737b4b80",
+            "path": "config/alexsmobs/rocky_roller_spawns.json"
+          }
+        },
+        {
+          "id": "seagull_spawns.json",
+          "name": "seagull_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1296,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/seagull_spawns.json",
+            "MD5": "477c8512be58a4c7cadbc3ea65c3642a",
+            "path": "config/alexsmobs/seagull_spawns.json"
+          }
+        },
+        {
+          "id": "seal_spawns.json",
+          "name": "seal_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 877,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/seal_spawns.json",
+            "MD5": "001c3ef108fd4fa9766fc80441edeb04",
+            "path": "config/alexsmobs/seal_spawns.json"
+          }
+        },
+        {
+          "id": "shoebill_spawns.json",
+          "name": "shoebill_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 623,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/shoebill_spawns.json",
+            "MD5": "7e9b29c6eba19484a234ee300f2dea69",
+            "path": "config/alexsmobs/shoebill_spawns.json"
+          }
+        },
+        {
+          "id": "skelewag_spawns.json",
+          "name": "skelewag_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 374,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/skelewag_spawns.json",
+            "MD5": "b848bd81bc3b313dba92f2743bc27643",
+            "path": "config/alexsmobs/skelewag_spawns.json"
+          }
+        },
+        {
+          "id": "skreecher.json",
+          "name": "skreecher.json",
+          "type": "File",
+          "artifact": {
+            "size": 276,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/skreecher.json",
+            "MD5": "cf0d7ac8c8ec5f67d540efe79f2f2084",
+            "path": "config/alexsmobs/skreecher.json"
+          }
+        },
+        {
+          "id": "skunk_spawns.json",
+          "name": "skunk_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 2037,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/skunk_spawns.json",
+            "MD5": "e077fe3ab2315f937483c66f95ece589",
+            "path": "config/alexsmobs/skunk_spawns.json"
+          }
+        },
+        {
+          "id": "snow_leopard_spawns.json",
+          "name": "snow_leopard_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1808,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/snow_leopard_spawns.json",
+            "MD5": "54323941affc9be9f7a507f68dbd4ee7",
+            "path": "config/alexsmobs/snow_leopard_spawns.json"
+          }
+        },
+        {
+          "id": "soul_vulture_spawns.json",
+          "name": "soul_vulture_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 523,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/soul_vulture_spawns.json",
+            "MD5": "4121b1b2b71908c6db3f6f2a8c53059a",
+            "path": "config/alexsmobs/soul_vulture_spawns.json"
+          }
+        },
+        {
+          "id": "spectre_spawns.json",
+          "name": "spectre_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 250,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/spectre_spawns.json",
+            "MD5": "fe07337e303bd453f45f00ec63fa9c0a",
+            "path": "config/alexsmobs/spectre_spawns.json"
+          }
+        },
+        {
+          "id": "straddler_spawns.json",
+          "name": "straddler_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 664,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/straddler_spawns.json",
+            "MD5": "bf5897f982c8063dc1d570ad6c4eee95",
+            "path": "config/alexsmobs/straddler_spawns.json"
+          }
+        },
+        {
+          "id": "stradpole_spawns.json",
+          "name": "stradpole_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 664,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/stradpole_spawns.json",
+            "MD5": "bf5897f982c8063dc1d570ad6c4eee95",
+            "path": "config/alexsmobs/stradpole_spawns.json"
+          }
+        },
+        {
+          "id": "sugar_glider_spawns.json",
+          "name": "sugar_glider_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 418,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/sugar_glider_spawns.json",
+            "MD5": "6f1722c17a8adc08ab757a0e6377233e",
+            "path": "config/alexsmobs/sugar_glider_spawns.json"
+          }
+        },
+        {
+          "id": "sunbird_spawns.json",
+          "name": "sunbird_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 3925,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/sunbird_spawns.json",
+            "MD5": "147fdf357f3478c40b5b7481569c6c07",
+            "path": "config/alexsmobs/sunbird_spawns.json"
+          }
+        },
+        {
+          "id": "tarantula_hawk_spawns.json",
+          "name": "tarantula_hawk_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1252,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/tarantula_hawk_spawns.json",
+            "MD5": "1e43a85b07df2edeaed6affb2eb06eb5",
+            "path": "config/alexsmobs/tarantula_hawk_spawns.json"
+          }
+        },
+        {
+          "id": "tasmanian_devil_spawns.json",
+          "name": "tasmanian_devil_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1908,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/tasmanian_devil_spawns.json",
+            "MD5": "2234aec1f09e2e0e5d202cfbeb9b283b",
+            "path": "config/alexsmobs/tasmanian_devil_spawns.json"
+          }
+        },
+        {
+          "id": "terrapin_spawns.json",
+          "name": "terrapin_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 625,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/terrapin_spawns.json",
+            "MD5": "058a3971fb93597c04c1769bfe265fb9",
+            "path": "config/alexsmobs/terrapin_spawns.json"
+          }
+        },
+        {
+          "id": "tiger_spawns.json",
+          "name": "tiger_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1209,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/tiger_spawns.json",
+            "MD5": "8e7708606954a64a9f8648585c8a4a74",
+            "path": "config/alexsmobs/tiger_spawns.json"
+          }
+        },
+        {
+          "id": "toucan_spawns.json",
+          "name": "toucan_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1166,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/toucan_spawns.json",
+            "MD5": "2040bb544aff0345a335fd895cd0022c",
+            "path": "config/alexsmobs/toucan_spawns.json"
+          }
+        },
+        {
+          "id": "triops_spawns.json",
+          "name": "triops_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 1252,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/triops_spawns.json",
+            "MD5": "1e43a85b07df2edeaed6affb2eb06eb5",
+            "path": "config/alexsmobs/triops_spawns.json"
+          }
+        },
+        {
+          "id": "tusklin_spawns.json",
+          "name": "tusklin_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 882,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/tusklin_spawns.json",
+            "MD5": "502bb996e36a50b977acb73e29e975df",
+            "path": "config/alexsmobs/tusklin_spawns.json"
+          }
+        },
+        {
+          "id": "underminer.json",
+          "name": "underminer.json",
+          "type": "File",
+          "artifact": {
+            "size": 2085,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/underminer.json",
+            "MD5": "4b8fb651c60044198150aa49c4193dcc",
+            "path": "config/alexsmobs/underminer.json"
+          }
+        },
+        {
+          "id": "void_worm_spawns.json",
+          "name": "void_worm_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 18,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/void_worm_spawns.json",
+            "MD5": "0531dec7156e47b4566a5eb598a4b931",
+            "path": "config/alexsmobs/void_worm_spawns.json"
+          }
+        },
+        {
+          "id": "warped_mosco_spawns.json",
+          "name": "warped_mosco_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 18,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/warped_mosco_spawns.json",
+            "MD5": "0531dec7156e47b4566a5eb598a4b931",
+            "path": "config/alexsmobs/warped_mosco_spawns.json"
+          }
+        },
+        {
+          "id": "warped_toad_spawns.json",
+          "name": "warped_toad_spawns.json",
+          "type": "File",
+          "artifact": {
+            "size": 661,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs/warped_toad_spawns.json",
+            "MD5": "39d42abce47f0e9e64bab7680a0d8ef0",
+            "path": "config/alexsmobs/warped_toad_spawns.json"
+          }
+        },
+        {
+          "id": "alexsmobs.toml",
+          "name": "alexsmobs.toml",
+          "type": "File",
+          "artifact": {
+            "size": 36192,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/alexsmobs.toml",
+            "MD5": "6b5567e6a3a903e0102c576899a33226",
+            "path": "config/alexsmobs.toml"
+          }
+        },
+        {
+          "id": "startup.json",
+          "name": "startup.json",
+          "type": "File",
+          "artifact": {
+            "size": 25,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/almostunified/startup.json",
+            "MD5": "19ca9f206a50dd351560f85a07df56f7",
+            "path": "config/almostunified/startup.json"
+          }
+        },
+        {
+          "id": "aquaculture-common.toml",
+          "name": "aquaculture-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 825,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/aquaculture-common.toml",
+            "MD5": "b81074cb98f1c58f87f580bbbc21fa47",
+            "path": "config/aquaculture-common.toml"
+          }
+        },
+        {
+          "id": "atmospheric-common.toml",
+          "name": "atmospheric-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 234,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/atmospheric-common.toml",
+            "MD5": "68e5027bc94bff160ebb642e4ba9f9ec",
+            "path": "config/atmospheric-common.toml"
+          }
+        },
+        {
+          "id": "attributefix.json",
+          "name": "attributefix.json",
+          "type": "File",
+          "artifact": {
+            "size": 4253,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/attributefix.json",
+            "MD5": "7f23011749c27825b3e78eabead0819c",
+            "path": "config/attributefix.json"
+          }
+        },
+        {
+          "id": "autumnity-common.toml",
+          "name": "autumnity-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 159,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/autumnity-common.toml",
+            "MD5": "8b4e9d58838b5d9fb532418d6a004b96",
+            "path": "config/autumnity-common.toml"
+          }
+        },
+        {
+          "id": "balm-common.toml",
+          "name": "balm-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 553,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/balm-common.toml",
+            "MD5": "bcb937860bc4782a1532a5bc3aead312",
+            "path": "config/balm-common.toml"
+          }
+        },
+        {
+          "id": "bcc-common.toml",
+          "name": "bcc-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 370,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/bcc-common.toml",
+            "MD5": "63be2f2f39dd89a48fbb07704fe000f3",
+            "path": "config/bcc-common.toml"
+          }
+        },
+        {
+          "id": "armorstands.json",
+          "name": "armorstands.json",
+          "type": "File",
+          "artifact": {
+            "size": 1104,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/betterdeserttemples/forge-1_20/armorstands.json",
+            "MD5": "536727dd60a6617221155052307d1dc0",
+            "path": "config/betterdeserttemples/forge-1_20/armorstands.json"
+          }
+        },
+        {
+          "id": "itemframes.json",
+          "name": "itemframes.json",
+          "type": "File",
+          "artifact": {
+            "size": 614,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/betterdeserttemples/forge-1_20/itemframes.json",
+            "MD5": "ff865ea109d289874139baccc25eac99",
+            "path": "config/betterdeserttemples/forge-1_20/itemframes.json"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1683,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/betterdeserttemples/forge-1_20/README.txt",
+            "MD5": "ca46ae3cbbc0d993e6c5f4b78e3abad4",
+            "path": "config/betterdeserttemples/forge-1_20/README.txt"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 722,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/betterdeserttemples/README.txt",
+            "MD5": "058aefa47551a5e105df5613d6d24ea7",
+            "path": "config/betterdeserttemples/README.txt"
+          }
+        },
+        {
+          "id": "betterdeserttemples-forge-1_20.toml",
+          "name": "betterdeserttemples-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 618,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/betterdeserttemples-forge-1_20.toml",
+            "MD5": "27016896345c37eb7cde4df36bfa8b23",
+            "path": "config/betterdeserttemples-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "betterdungeons-forge-1_20.toml",
+          "name": "betterdungeons-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3486,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/betterdungeons-forge-1_20.toml",
+            "MD5": "9855cf19509981af8a96f9dc11eae9da",
+            "path": "config/betterdungeons-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "betterendisland-forge-1_20.toml",
+          "name": "betterendisland-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 329,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/betterendisland-forge-1_20.toml",
+            "MD5": "6982ca5ed6d667bafcfd6d21f24a3b13",
+            "path": "config/betterendisland-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "itemframes.json",
+          "name": "itemframes.json",
+          "type": "File",
+          "artifact": {
+            "size": 901,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/betterfortresses/forge-1_20/itemframes.json",
+            "MD5": "99c74682bd0d7146883fa9ffbb38258f",
+            "path": "config/betterfortresses/forge-1_20/itemframes.json"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1339,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/betterfortresses/forge-1_20/README.txt",
+            "MD5": "77f5c32923f20baf9ee380e7c1c24b1c",
+            "path": "config/betterfortresses/forge-1_20/README.txt"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 871,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/betterfortresses/README.txt",
+            "MD5": "eceef9412a301d8cac9d2c98b2a2256f",
+            "path": "config/betterfortresses/README.txt"
+          }
+        },
+        {
+          "id": "betterfortresses-forge-1_20.toml",
+          "name": "betterfortresses-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 468,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/betterfortresses-forge-1_20.toml",
+            "MD5": "7882d065dfd197ea7c6f644236548d53",
+            "path": "config/betterfortresses-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "betterjungletemples-forge-1_20.toml",
+          "name": "betterjungletemples-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 126,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/betterjungletemples-forge-1_20.toml",
+            "MD5": "1da790b268e12ea41fcec9645eaacb16",
+            "path": "config/betterjungletemples-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "bettermineshafts-forge-1_20.toml",
+          "name": "bettermineshafts-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3773,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/bettermineshafts-forge-1_20.toml",
+            "MD5": "5d8c354b2a62e7a4cb40f52696fcc972",
+            "path": "config/bettermineshafts-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "betteroceanmonuments-forge-1_20.toml",
+          "name": "betteroceanmonuments-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 460,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/betteroceanmonuments-forge-1_20.toml",
+            "MD5": "87c9735623f1ee7b4e595151dbe3384a",
+            "path": "config/betteroceanmonuments-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "armorstands.json",
+          "name": "armorstands.json",
+          "type": "File",
+          "artifact": {
+            "size": 1131,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/betterstrongholds/forge-1_20/armorstands.json",
+            "MD5": "8c1b590b0601bb23b267cb0e9d267966",
+            "path": "config/betterstrongholds/forge-1_20/armorstands.json"
+          }
+        },
+        {
+          "id": "itemframes.json",
+          "name": "itemframes.json",
+          "type": "File",
+          "artifact": {
+            "size": 680,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/betterstrongholds/forge-1_20/itemframes.json",
+            "MD5": "6a52c4b82ab5d89ca1c7e6d2766d06fc",
+            "path": "config/betterstrongholds/forge-1_20/itemframes.json"
+          }
+        },
+        {
+          "id": "ores.json",
+          "name": "ores.json",
+          "type": "File",
+          "artifact": {
+            "size": 346,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/betterstrongholds/forge-1_20/ores.json",
+            "MD5": "5f8628fca024a1c4e364196863f97bb0",
+            "path": "config/betterstrongholds/forge-1_20/ores.json"
+          }
+        },
+        {
+          "id": "rareblocks.json",
+          "name": "rareblocks.json",
+          "type": "File",
+          "artifact": {
+            "size": 238,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/betterstrongholds/forge-1_20/rareblocks.json",
+            "MD5": "476c158d1845e826921453ad007bdeec",
+            "path": "config/betterstrongholds/forge-1_20/rareblocks.json"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2830,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/betterstrongholds/forge-1_20/README.txt",
+            "MD5": "38d8610721769459e29aa78954bca2d7",
+            "path": "config/betterstrongholds/forge-1_20/README.txt"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 707,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/betterstrongholds/README.txt",
+            "MD5": "9c87e3750c4f479deef3c9ae7c3fabb9",
+            "path": "config/betterstrongholds/README.txt"
+          }
+        },
+        {
+          "id": "betterstrongholds-forge-1_20.toml",
+          "name": "betterstrongholds-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 813,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/betterstrongholds-forge-1_20.toml",
+            "MD5": "318ea1867c399423ae69f7a3c1c0abf8",
+            "path": "config/betterstrongholds-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "betterwitchhuts-forge-1_20.toml",
+          "name": "betterwitchhuts-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 440,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/betterwitchhuts-forge-1_20.toml",
+            "MD5": "5ec17c67ccc3bb9f524bf3a30a03be3f",
+            "path": "config/betterwitchhuts-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "biome_toggles.json",
+          "name": "biome_toggles.json",
+          "type": "File",
+          "artifact": {
+            "size": 1999,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/biomesoplenty/biome_toggles.json",
+            "MD5": "ef74c4378e87db15c420c2d8435870b6",
+            "path": "config/biomesoplenty/biome_toggles.json"
+          }
+        },
+        {
+          "id": "generation.toml",
+          "name": "generation.toml",
+          "type": "File",
+          "artifact": {
+            "size": 619,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/biomesoplenty/generation.toml",
+            "MD5": "0b34931102b4821e542acc03e910a609",
+            "path": "config/biomesoplenty/generation.toml"
+          }
+        },
+        {
+          "id": "blueprint-client.toml",
+          "name": "blueprint-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 770,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/blueprint-client.toml",
+            "MD5": "274bf9121f5d934bbbb1a93fb65c40df",
+            "path": "config/blueprint-client.toml"
+          }
+        },
+        {
+          "id": "blueprint-common.toml",
+          "name": "blueprint-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 614,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/blueprint-common.toml",
+            "MD5": "96263bdc056fd70b2ce1b1ec0a113c20",
+            "path": "config/blueprint-common.toml"
+          }
+        },
+        {
+          "id": "cfwinfo-common.toml",
+          "name": "cfwinfo-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 291,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/cfwinfo-common.toml",
+            "MD5": "1a0fc8af2760601c5375fcd758a83168",
+            "path": "config/cfwinfo-common.toml"
+          }
+        },
+        {
+          "id": "citadel-common.toml",
+          "name": "citadel-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 648,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/citadel-common.toml",
+            "MD5": "f211eac94129201b25acdeee49218d43",
+            "path": "config/citadel-common.toml"
+          }
+        },
+        {
+          "id": "client.toml",
+          "name": "client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2279,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/coldsweat/client.toml",
+            "MD5": "7f44bc1d37c46725a56e651a218c9d70",
+            "path": "config/coldsweat/client.toml"
+          }
+        },
+        {
+          "id": "entity.toml",
+          "name": "entity.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2912,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/coldsweat/entity.toml",
+            "MD5": "5d1c59a041fb6e529f4b299715be3319",
+            "path": "config/coldsweat/entity.toml"
+          }
+        },
+        {
+          "id": "item.toml",
+          "name": "item.toml",
+          "type": "File",
+          "artifact": {
+            "size": 7343,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/coldsweat/item.toml",
+            "MD5": "7c2b670c3893e32043967ce745708f2e",
+            "path": "config/coldsweat/item.toml"
+          }
+        },
+        {
+          "id": "main.toml",
+          "name": "main.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2860,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/coldsweat/main.toml",
+            "MD5": "9ae0d7124eb178c01e332846a5e887e2",
+            "path": "config/coldsweat/main.toml"
+          }
+        },
+        {
+          "id": "world.toml",
+          "name": "world.toml",
+          "type": "File",
+          "artifact": {
+            "size": 12788,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/coldsweat/world.toml",
+            "MD5": "17e929ad641364819dc6daa41bcee9f3",
+            "path": "config/coldsweat/world.toml"
+          }
+        },
+        {
+          "id": "computercraft-client.toml",
+          "name": "computercraft-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 567,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/computercraft-client.toml",
+            "MD5": "2c6636d2bd20238a90d3aa2b88fbb865",
+            "path": "config/computercraft-client.toml"
+          }
+        },
+        {
+          "id": "configured-client.toml",
+          "name": "configured-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 93,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/configured-client.toml",
+            "MD5": "c832c4889e1cd0bfe147658abbcfd62c",
+            "path": "config/configured-client.toml"
+          }
+        },
+        {
+          "id": "connectivity.json",
+          "name": "connectivity.json",
+          "type": "File",
+          "artifact": {
+            "size": 1427,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/connectivity.json",
+            "MD5": "2784cbf8fb27ea1766decef5e5dad0a7",
+            "path": "config/connectivity.json"
+          }
+        },
+        {
+          "id": "General.toml",
+          "name": "General.toml",
+          "type": "File",
+          "artifact": {
+            "size": 133,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/CoroUtil/General.toml",
+            "MD5": "8f9eed7bc02c6d45d54ea813d5ddf1cc",
+            "path": "config/CoroUtil/General.toml"
+          }
+        },
+        {
+          "id": "config.toml",
+          "name": "config.toml",
+          "type": "File",
+          "artifact": {
+            "size": 5117,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/crash_assistant/config.toml",
+            "MD5": "62a44a5946340e35d604641c89193b17",
+            "path": "config/crash_assistant/config.toml"
+          }
+        },
+        {
+          "id": "en_us.json",
+          "name": "en_us.json",
+          "type": "File",
+          "artifact": {
+            "size": 3793,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/crash_assistant/lang/en_us.json",
+            "MD5": "ae6f76a604d8f260e71fdd5d61fc7ae9",
+            "path": "config/crash_assistant/lang/en_us.json"
+          }
+        },
+        {
+          "id": "README.md",
+          "name": "README.md",
+          "type": "File",
+          "artifact": {
+            "size": 715,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/crash_assistant/lang/README.md",
+            "MD5": "d4ca7c384aa3bee807a8c5131b6ba14a",
+            "path": "config/crash_assistant/lang/README.md"
+          }
+        },
+        {
+          "id": "ru_ru.json",
+          "name": "ru_ru.json",
+          "type": "File",
+          "artifact": {
+            "size": 3793,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/crash_assistant/lang/ru_ru.json",
+            "MD5": "ae6f76a604d8f260e71fdd5d61fc7ae9",
+            "path": "config/crash_assistant/lang/ru_ru.json"
+          }
+        },
+        {
+          "id": "zh_cn.json",
+          "name": "zh_cn.json",
+          "type": "File",
+          "artifact": {
+            "size": 3793,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/crash_assistant/lang/zh_cn.json",
+            "MD5": "ae6f76a604d8f260e71fdd5d61fc7ae9",
+            "path": "config/crash_assistant/lang/zh_cn.json"
+          }
+        },
+        {
+          "id": "modlist.json",
+          "name": "modlist.json",
+          "type": "File",
+          "artifact": {
+            "size": 12423,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/crash_assistant/modlist.json",
+            "MD5": "184b99959f90bbc1571d7de8ff09bb90",
+            "path": "config/crash_assistant/modlist.json"
+          }
+        },
+        {
+          "id": "problematic_mods_config.json",
+          "name": "problematic_mods_config.json",
+          "type": "File",
+          "artifact": {
+            "size": 225,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/crash_assistant/problematic_mods_config.json",
+            "MD5": "61072ea58801cdf71d5736c59c4b8051",
+            "path": "config/crash_assistant/problematic_mods_config.json"
+          }
+        },
+        {
+          "id": "create-client.toml",
+          "name": "create-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4397,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/create-client.toml",
+            "MD5": "d276f313790d54d07df0fbb1916f6350",
+            "path": "config/create-client.toml"
+          }
+        },
+        {
+          "id": "create-common.toml",
+          "name": "create-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 157,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/create-common.toml",
+            "MD5": "7503e1571dd136604d3a78582d1a6cb0",
+            "path": "config/create-common.toml"
+          }
+        },
+        {
+          "id": "create-stuff-additions.toml",
+          "name": "create-stuff-additions.toml",
+          "type": "File",
+          "artifact": {
+            "size": 841,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/create-stuff-additions.toml",
+            "MD5": "cd968bd5b00de4fd38caadf59332b497",
+            "path": "config/create-stuff-additions.toml"
+          }
+        },
+        {
+          "id": "createaddition-common.toml",
+          "name": "createaddition-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4446,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/createaddition-common.toml",
+            "MD5": "c156f51d0723c2b75e51cecdc6abfac0",
+            "path": "config/createaddition-common.toml"
+          }
+        },
+        {
+          "id": "createoreexcavation-common.toml",
+          "name": "createoreexcavation-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 692,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/createoreexcavation-common.toml",
+            "MD5": "cd6fff3500ca3a40f1c1f05ea2f6634f",
+            "path": "config/createoreexcavation-common.toml"
+          }
+        },
+        {
+          "id": "createtweakedcontrollers-client.toml",
+          "name": "createtweakedcontrollers-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1116,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/createtweakedcontrollers-client.toml",
+            "MD5": "ca1088e2ee5de59dfbc0f76d63e73f3b",
+            "path": "config/createtweakedcontrollers-client.toml"
+          }
+        },
+        {
+          "id": "create_new_age-client.toml",
+          "name": "create_new_age-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 254,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/create_new_age-client.toml",
+            "MD5": "278b11350fd8eff150facb35b09548c0",
+            "path": "config/create_new_age-client.toml"
+          }
+        },
+        {
+          "id": "create_new_age-common.toml",
+          "name": "create_new_age-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3445,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/create_new_age-common.toml",
+            "MD5": "586d740f47d714f378e3b8127d0851b6",
+            "path": "config/create_new_age-common.toml"
+          }
+        },
+        {
+          "id": "create_questing.json",
+          "name": "create_questing.json",
+          "type": "File",
+          "artifact": {
+            "size": 323,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/create_questing.json",
+            "MD5": "13eadc69d76e7a3dc79ad6bb283dce20",
+            "path": "config/create_questing.json"
+          }
+        },
+        {
+          "id": "cupboard.json",
+          "name": "cupboard.json",
+          "type": "File",
+          "artifact": {
+            "size": 1090,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/cupboard.json",
+            "MD5": "7725e2ad17f08b6221f0ecdeda137888",
+            "path": "config/cupboard.json"
+          }
+        },
+        {
+          "id": "DistantHorizons.toml",
+          "name": "DistantHorizons.toml",
+          "type": "File",
+          "artifact": {
+            "size": 30771,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/DistantHorizons.toml",
+            "MD5": "6fcb948f50c2c89adfe943063ee6a76b",
+            "path": "config/DistantHorizons.toml"
+          }
+        },
+        {
+          "id": "embeddium-fingerprint.json",
+          "name": "embeddium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/embeddium-fingerprint.json",
+            "MD5": "a14c3a3f226e72b731bc1bd825566231",
+            "path": "config/embeddium-fingerprint.json"
+          }
+        },
+        {
+          "id": "embeddium-mixins.properties",
+          "name": "embeddium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 269,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/embeddium-mixins.properties",
+            "MD5": "a9176524f816153a7967217b53bb75a1",
+            "path": "config/embeddium-mixins.properties"
+          }
+        },
+        {
+          "id": "embeddium-options.json",
+          "name": "embeddium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 852,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/embeddium-options.json",
+            "MD5": "c0a96a9199ece4278654cf6e1fb2584c",
+            "path": "config/embeddium-options.json"
+          }
+        },
+        {
+          "id": "entityculling.json",
+          "name": "entityculling.json",
+          "type": "File",
+          "artifact": {
+            "size": 1695,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/entityculling.json",
+            "MD5": "8917e1c51d03445e63b5537a3bd33429",
+            "path": "config/entityculling.json"
+          }
+        },
+        {
+          "id": "entity_model_features.json",
+          "name": "entity_model_features.json",
+          "type": "File",
+          "artifact": {
+            "size": 1115,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/entity_model_features.json",
+            "MD5": "2303f1f389426ed19f18c61bd68e169d",
+            "path": "config/entity_model_features.json"
+          }
+        },
+        {
+          "id": "entity_texture_features.json",
+          "name": "entity_texture_features.json",
+          "type": "File",
+          "artifact": {
+            "size": 1420,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/entity_texture_features.json",
+            "MD5": "70bc0a7c3e75a25a9049facdc3a0a7ea",
+            "path": "config/entity_texture_features.json"
+          }
+        },
+        {
+          "id": "environmental-common.toml",
+          "name": "environmental-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2430,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/environmental-common.toml",
+            "MD5": "7560df54bcb6f5ce4d20093ca126c761",
+            "path": "config/environmental-common.toml"
+          }
+        },
+        {
+          "id": "etf_warnings.json",
+          "name": "etf_warnings.json",
+          "type": "File",
+          "artifact": {
+            "size": 28,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/etf_warnings.json",
+            "MD5": "b49b5603d2df29fa132f89ec91974572",
+            "path": "config/etf_warnings.json"
+          }
+        },
+        {
+          "id": "ferritecore-mixin.toml",
+          "name": "ferritecore-mixin.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1516,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/ferritecore-mixin.toml",
+            "MD5": "ab9006eb6d50292a11f757c0ae658ac0",
+            "path": "config/ferritecore-mixin.toml"
+          }
+        },
+        {
+          "id": "flywheel-client.toml",
+          "name": "flywheel-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 623,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/flywheel-client.toml",
+            "MD5": "e37296ada1b0c0ebf516e79820eb5813",
+            "path": "config/flywheel-client.toml"
+          }
+        },
+        {
+          "id": "fml.toml",
+          "name": "fml.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1148,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/fml.toml",
+            "MD5": "783d5f5e55fc91951e5e234d72980761",
+            "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "forge-client.toml",
+          "name": "forge-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1628,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/forge-client.toml",
+            "MD5": "94d0dcbf248b1ee18bf1266c672327a1",
+            "path": "config/forge-client.toml"
+          }
+        },
+        {
+          "id": "hide-blocks.json",
+          "name": "hide-blocks.json",
+          "type": "File",
+          "artifact": {
+            "size": 191,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/jade/hide-blocks.json",
+            "MD5": "da56a1383649dd1ebbbf41d9cfddb0da",
+            "path": "config/jade/hide-blocks.json"
+          }
+        },
+        {
+          "id": "hide-entities.json",
+          "name": "hide-entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 325,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/jade/hide-entities.json",
+            "MD5": "7b674db14cfdc978fa9786641eec8df6",
+            "path": "config/jade/hide-entities.json"
+          }
+        },
+        {
+          "id": "jade.json",
+          "name": "jade.json",
+          "type": "File",
+          "artifact": {
+            "size": 975,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/jade/jade.json",
+            "MD5": "e90f9bfc3c02e70c4ccfb9390f6e14e4",
+            "path": "config/jade/jade.json"
+          }
+        },
+        {
+          "id": "plugins.json",
+          "name": "plugins.json",
+          "type": "File",
+          "artifact": {
+            "size": 1845,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/jade/plugins.json",
+            "MD5": "c4df1d34d18100d3836166e9c3da82c5",
+            "path": "config/jade/plugins.json"
+          }
+        },
+        {
+          "id": "sort-order.json",
+          "name": "sort-order.json",
+          "type": "File",
+          "artifact": {
+            "size": 1697,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/jade/sort-order.json",
+            "MD5": "b9b7e9aa2f596ed59826ea3d539147f9",
+            "path": "config/jade/sort-order.json"
+          }
+        },
+        {
+          "id": "jeed-client.toml",
+          "name": "jeed-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 536,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/jeed-client.toml",
+            "MD5": "9812ad6369c005325cad852e9da67427",
+            "path": "config/jeed-client.toml"
+          }
+        },
+        {
+          "id": "jei-client.ini",
+          "name": "jei-client.ini",
+          "type": "File",
+          "artifact": {
+            "size": 7991,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/jei/jei-client.ini",
+            "MD5": "81c1f04ca66332819d0805e5323f3e4a",
+            "path": "config/jei/jei-client.ini"
+          }
+        },
+        {
+          "id": "jei-colors.ini",
+          "name": "jei-colors.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1338,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/jei/jei-colors.ini",
+            "MD5": "54322062602d3aabb6b11455e07de765",
+            "path": "config/jei/jei-colors.ini"
+          }
+        },
+        {
+          "id": "jei-debug.ini",
+          "name": "jei-debug.ini",
+          "type": "File",
+          "artifact": {
+            "size": 918,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/jei/jei-debug.ini",
+            "MD5": "4dd10e2f07441d4820fe65e804aac24c",
+            "path": "config/jei/jei-debug.ini"
+          }
+        },
+        {
+          "id": "jei-mod-id-format.ini",
+          "name": "jei-mod-id-format.ini",
+          "type": "File",
+          "artifact": {
+            "size": 463,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/jei/jei-mod-id-format.ini",
+            "MD5": "457dca8722dc66e695196c24fba7875f",
+            "path": "config/jei/jei-mod-id-format.ini"
+          }
+        },
+        {
+          "id": "jeresources-common.toml",
+          "name": "jeresources-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 236,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/jeresources-common.toml",
+            "MD5": "b8403bd156cd5a1adbeca3850c42384f",
+            "path": "config/jeresources-common.toml"
+          }
+        },
+        {
+          "id": "jeresources.toml",
+          "name": "jeresources.toml",
+          "type": "File",
+          "artifact": {
+            "size": 236,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/jeresources.toml",
+            "MD5": "832deacf307999a65c4a3bc40ab0dfa7",
+            "path": "config/jeresources.toml"
+          }
+        },
+        {
+          "id": "lootr-client.toml",
+          "name": "lootr-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 243,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/lootr-client.toml",
+            "MD5": "516944f57737be53cf47cb4218bcb16f",
+            "path": "config/lootr-client.toml"
+          }
+        },
+        {
+          "id": "lootr-common.toml",
+          "name": "lootr-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6195,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/lootr-common.toml",
+            "MD5": "02ed5e926c72f676c900239d7b2bcec2",
+            "path": "config/lootr-common.toml"
+          }
+        },
+        {
+          "id": "modernfix-common.toml",
+          "name": "modernfix-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 107,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/modernfix-common.toml",
+            "MD5": "1d50de2e9c0bda2952844de7a3306d10",
+            "path": "config/modernfix-common.toml"
+          }
+        },
+        {
+          "id": "modernfix-mixins.properties",
+          "name": "modernfix-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 5218,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/modernfix-mixins.properties",
+            "MD5": "acc29168246d77d4ceeb57f87d3eab84",
+            "path": "config/modernfix-mixins.properties"
+          }
+        },
+        {
+          "id": "molten_vents-common.toml",
+          "name": "molten_vents-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 237,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/molten_vents-common.toml",
+            "MD5": "a4920bb533d82572e4a2fe5747d81807",
+            "path": "config/molten_vents-common.toml"
+          }
+        },
+        {
+          "id": "molten_vents_custom_blocks.json",
+          "name": "molten_vents_custom_blocks.json",
+          "type": "File",
+          "artifact": {
+            "size": 73,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/molten_vents_custom_blocks.json",
+            "MD5": "9d59c1608e90fd8025de84e579d82979",
+            "path": "config/molten_vents_custom_blocks.json"
+          }
+        },
+        {
+          "id": "moonlight-client.toml",
+          "name": "moonlight-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1018,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/moonlight-client.toml",
+            "MD5": "1217edc0dc4632434d9ed771ad85626f",
+            "path": "config/moonlight-client.toml"
+          }
+        },
+        {
+          "id": "moonlight-common.toml",
+          "name": "moonlight-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 230,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/moonlight-common.toml",
+            "MD5": "bf1a8b524382ee27f875bf6738b8d3ed",
+            "path": "config/moonlight-common.toml"
+          }
+        },
+        {
+          "id": "necronomicon.json5",
+          "name": "necronomicon.json5",
+          "type": "File",
+          "artifact": {
+            "size": 266,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/necronomicon.json5",
+            "MD5": "f5d72523e51844112485d6c21b8d51c3",
+            "path": "config/necronomicon.json5"
+          }
+        },
+        {
+          "id": "NCR-Client.json",
+          "name": "NCR-Client.json",
+          "type": "File",
+          "artifact": {
+            "size": 565,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/NoChatReports/NCR-Client.json",
+            "MD5": "37b8f0ed4931d2d3e87b0f4831a95d2e",
+            "path": "config/NoChatReports/NCR-Client.json"
+          }
+        },
+        {
+          "id": "NCR-Common.json",
+          "name": "NCR-Common.json",
+          "type": "File",
+          "artifact": {
+            "size": 230,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/NoChatReports/NCR-Common.json",
+            "MD5": "50bbc81415d36251933350271692eeba",
+            "path": "config/NoChatReports/NCR-Common.json"
+          }
+        },
+        {
+          "id": "NCR-Encryption.json",
+          "name": "NCR-Encryption.json",
+          "type": "File",
+          "artifact": {
+            "size": 520,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/NoChatReports/NCR-Encryption.json",
+            "MD5": "137196dfc1619ce0f3b341713498c7c3",
+            "path": "config/NoChatReports/NCR-Encryption.json"
+          }
+        },
+        {
+          "id": "NCR-ServerPreferences.json",
+          "name": "NCR-ServerPreferences.json",
+          "type": "File",
+          "artifact": {
+            "size": 24,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/NoChatReports/NCR-ServerPreferences.json",
+            "MD5": "0968f5e80aa16a9f465f91ee816e165f",
+            "path": "config/NoChatReports/NCR-ServerPreferences.json"
+          }
+        },
+        {
+          "id": "README.md",
+          "name": "README.md",
+          "type": "File",
+          "artifact": {
+            "size": 167,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/NoChatReports/README.md",
+            "MD5": "964a995c80aa43cc34d780276a65b898",
+            "path": "config/NoChatReports/README.md"
+          }
+        },
+        {
+          "id": "oculus.properties",
+          "name": "oculus.properties",
+          "type": "File",
+          "artifact": {
+            "size": 254,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/oculus.properties",
+            "MD5": "4e05f45e59daabfed1fe13968c095733",
+            "path": "config/oculus.properties"
+          }
+        },
+        {
+          "id": "pickupnotifier-client.toml",
+          "name": "pickupnotifier-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3355,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/pickupnotifier/pickupnotifier-client.toml",
+            "MD5": "59b99a7c6df8ca7f5e5a595c8a5cf086",
+            "path": "config/pickupnotifier/pickupnotifier-client.toml"
+          }
+        },
+        {
+          "id": "ponder-client.toml",
+          "name": "ponder-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 619,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/ponder-client.toml",
+            "MD5": "e923797057f201aaabb470187e768971",
+            "path": "config/ponder-client.toml"
+          }
+        },
+        {
+          "id": "quark-common.toml",
+          "name": "quark-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 82276,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/quark-common.toml",
+            "MD5": "e67819c3475b18b5d02d7260c40653fe",
+            "path": "config/quark-common.toml"
+          }
+        },
+        {
+          "id": "fertility.toml",
+          "name": "fertility.toml",
+          "type": "File",
+          "artifact": {
+            "size": 485,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/sereneseasons/fertility.toml",
+            "MD5": "4f5c32be9582b901941b5291f6b67d95",
+            "path": "config/sereneseasons/fertility.toml"
+          }
+        },
+        {
+          "id": "seasons.toml",
+          "name": "seasons.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4751,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/sereneseasons/seasons.toml",
+            "MD5": "23b5a6cbee574f487376bd624b74d9c3",
+            "path": "config/sereneseasons/seasons.toml"
+          }
+        },
+        {
+          "id": "sidebar_buttons.json",
+          "name": "sidebar_buttons.json",
+          "type": "File",
+          "artifact": {
+            "size": 192,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/sidebar_buttons.json",
+            "MD5": "50226dcf1b68c34a0daaed60ed176f55",
+            "path": "config/sidebar_buttons.json"
+          }
+        },
+        {
+          "id": "server-entries.toml",
+          "name": "server-entries.toml",
+          "type": "File",
+          "artifact": {
+            "size": 150,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/simple-rpc/server-entries.toml",
+            "MD5": "2fca628745ebfdc5b64aa8101f507a36",
+            "path": "config/simple-rpc/server-entries.toml"
+          }
+        },
+        {
+          "id": "simple-rpc.toml",
+          "name": "simple-rpc.toml",
+          "type": "File",
+          "artifact": {
+            "size": 9661,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/simple-rpc/simple-rpc.toml",
+            "MD5": "7bfd2dad1ebe2c1ec0b372a09fc425d5",
+            "path": "config/simple-rpc/simple-rpc.toml"
+          }
+        },
+        {
+          "id": "sliceanddice-client.toml",
+          "name": "sliceanddice-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 33,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/sliceanddice-client.toml",
+            "MD5": "7a8c7c0f1926d114d379579234e67c4b",
+            "path": "config/sliceanddice-client.toml"
+          }
+        },
+        {
+          "id": "sliceanddice-common.toml",
+          "name": "sliceanddice-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 279,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/sliceanddice-common.toml",
+            "MD5": "a1d4b2136ff97001ce341c988bd71873",
+            "path": "config/sliceanddice-common.toml"
+          }
+        },
+        {
+          "id": "smoothchunk.json",
+          "name": "smoothchunk.json",
+          "type": "File",
+          "artifact": {
+            "size": 585,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/smoothchunk.json",
+            "MD5": "854ac5572ff95f7de0d6423aeb9fba04",
+            "path": "config/smoothchunk.json"
+          }
+        },
+        {
+          "id": "allowed_sounds.properties",
+          "name": "allowed_sounds.properties",
+          "type": "File",
+          "artifact": {
+            "size": 99170,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/sound_physics_remastered/allowed_sounds.properties",
+            "MD5": "0031faa741cbc39fae97d506cc9f1f76",
+            "path": "config/sound_physics_remastered/allowed_sounds.properties"
+          }
+        },
+        {
+          "id": "occlusion.properties",
+          "name": "occlusion.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4831,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/sound_physics_remastered/occlusion.properties",
+            "MD5": "6a1ccc4ab8514da27f3e26be1f4d66cc",
+            "path": "config/sound_physics_remastered/occlusion.properties"
+          }
+        },
+        {
+          "id": "reflectivity.properties",
+          "name": "reflectivity.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4713,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/sound_physics_remastered/reflectivity.properties",
+            "MD5": "71e8dd2017c556ff9bc3752edcaa395a",
+            "path": "config/sound_physics_remastered/reflectivity.properties"
+          }
+        },
+        {
+          "id": "soundphysics.properties",
+          "name": "soundphysics.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4994,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/sound_physics_remastered/soundphysics.properties",
+            "MD5": "b90ef17e88812c1cb40d98afef34e0c9",
+            "path": "config/sound_physics_remastered/soundphysics.properties"
+          }
+        },
+        {
+          "id": "supplementaries-client.toml",
+          "name": "supplementaries-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 9129,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/supplementaries-client.toml",
+            "MD5": "5a71296edb05ccfdb651d672cb4f9580",
+            "path": "config/supplementaries-client.toml"
+          }
+        },
+        {
+          "id": "supplementaries-common.toml",
+          "name": "supplementaries-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 24246,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/supplementaries-common.toml",
+            "MD5": "0b843564fe5f9392b57cf01c93ff8ea3",
+            "path": "config/supplementaries-common.toml"
+          }
+        },
+        {
+          "id": "tacz-client.toml",
+          "name": "tacz-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2099,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/tacz-client.toml",
+            "MD5": "26c7532f8fd3e0ff7643be64e2fdbdea",
+            "path": "config/tacz-client.toml"
+          }
+        },
+        {
+          "id": "tacz-common.toml",
+          "name": "tacz-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1805,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/tacz-common.toml",
+            "MD5": "8750abcaf3a8fcdf930848774ee73c10",
+            "path": "config/tacz-common.toml"
+          }
+        },
+        {
+          "id": "terrablender.toml",
+          "name": "terrablender.toml",
+          "type": "File",
+          "artifact": {
+            "size": 552,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/terrablender.toml",
+            "MD5": "0a79fa039b71bf8d3942f677d3269576",
+            "path": "config/terrablender.toml"
+          }
+        },
+        {
+          "id": "client.toml",
+          "name": "client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 526,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/thirst/client.toml",
+            "MD5": "758c01646ff53da505ae1f220d1af290",
+            "path": "config/thirst/client.toml"
+          }
+        },
+        {
+          "id": "common.toml",
+          "name": "common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3900,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/thirst/common.toml",
+            "MD5": "9758cb00a5603cb5cc04980cc63f47c0",
+            "path": "config/thirst/common.toml"
+          }
+        },
+        {
+          "id": "container.toml",
+          "name": "container.toml",
+          "type": "File",
+          "artifact": {
+            "size": 247,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/thirst/container.toml",
+            "MD5": "8042c862e024d166327881a9a5205a22",
+            "path": "config/thirst/container.toml"
+          }
+        },
+        {
+          "id": "item_settings.toml",
+          "name": "item_settings.toml",
+          "type": "File",
+          "artifact": {
+            "size": 5308,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/thirst/item_settings.toml",
+            "MD5": "8f2be25b54467ca75bb7df27c1bd2459",
+            "path": "config/thirst/item_settings.toml"
+          }
+        },
+        {
+          "id": "keyword.toml",
+          "name": "keyword.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2123,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/thirst/keyword.toml",
+            "MD5": "8099fdd7eeb460639d19fa11593356e6",
+            "path": "config/thirst/keyword.toml"
+          }
+        },
+        {
+          "id": "toms_storage-common.toml",
+          "name": "toms_storage-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 910,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/toms_storage-common.toml",
+            "MD5": "32186113d9cfbd9f7b8137da8076f3ab",
+            "path": "config/toms_storage-common.toml"
+          }
+        },
+        {
+          "id": "visualworkbench-client.toml",
+          "name": "visualworkbench-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 315,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/visualworkbench-client.toml",
+            "MD5": "e7857329c8e27a79077e0350264da2e4",
+            "path": "config/visualworkbench-client.toml"
+          }
+        },
+        {
+          "id": "visual_workbench.json",
+          "name": "visual_workbench.json",
+          "type": "File",
+          "artifact": {
+            "size": 11520,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/visual_workbench.json",
+            "MD5": "7c4eddfce31cc30fdf0c293a2142d4bd",
+            "path": "config/visual_workbench.json"
+          }
+        },
+        {
+          "id": "translations.properties",
+          "name": "translations.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1182,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/voicechat/translations.properties",
+            "MD5": "4af29bbbf5267fe4298e80c2e6ebca63",
+            "path": "config/voicechat/translations.properties"
+          }
+        },
+        {
+          "id": "voicechat-client.properties",
+          "name": "voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4279,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/voicechat/voicechat-client.properties",
+            "MD5": "f5039a7ff595cdcbd375d964a39e1edf",
+            "path": "config/voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "voicechat-server.properties",
+          "name": "voicechat-server.properties",
+          "type": "File",
+          "artifact": {
+            "size": 2371,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/voicechat/voicechat-server.properties",
+            "MD5": "77eff904229e9e32e904c1df4f1fcd0b",
+            "path": "config/voicechat/voicechat-server.properties"
+          }
+        },
+        {
+          "id": "voicechat-volumes.properties",
+          "name": "voicechat-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 37,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/voicechat/voicechat-volumes.properties",
+            "MD5": "fcb38654c898989fdf9b82707c3ee2f5",
+            "path": "config/voicechat/voicechat-volumes.properties"
+          }
+        },
+        {
+          "id": "voicechat-client.toml",
+          "name": "voicechat-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 94,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/voicechat-client.toml",
+            "MD5": "2fb2989fe60bf9a60eb6e8946ce4bb12",
+            "path": "config/voicechat-client.toml"
+          }
+        },
+        {
+          "id": "watut-client.toml",
+          "name": "watut-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3236,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/watut-client.toml",
+            "MD5": "e0cddcbc15a1f0c7922b575637d7c0f5",
+            "path": "config/watut-client.toml"
+          }
+        },
+        {
+          "id": "watut-common.toml",
+          "name": "watut-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 154,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/watut-common.toml",
+            "MD5": "c90cbbb318b712edc7666fdae93e21fb",
+            "path": "config/watut-common.toml"
+          }
+        },
+        {
+          "id": "watut-item-arm-adjustments.json",
+          "name": "watut-item-arm-adjustments.json",
+          "type": "File",
+          "artifact": {
+            "size": 3367,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/watut-item-arm-adjustments.json",
+            "MD5": "25925ecf5d13afcb55b2d4fcff81361c",
+            "path": "config/watut-item-arm-adjustments.json"
+          }
+        },
+        {
+          "id": "watut-server.toml",
+          "name": "watut-server.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2880,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/watut-server.toml",
+            "MD5": "8880a36d5fa073507b95efd67c4ed6f9",
+            "path": "config/watut-server.toml"
+          }
+        },
+        {
+          "id": "waystones-common.toml",
+          "name": "waystones-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 7824,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/waystones-common.toml",
+            "MD5": "26cb3ddedb61b9ee8fd57394c9cdf3cc",
+            "path": "config/waystones-common.toml"
+          }
+        },
+        {
+          "id": "zeta-common.toml",
+          "name": "zeta-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1912,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/zeta-common.toml",
+            "MD5": "38b8f978628d549cee47816b1cf5f409",
+            "path": "config/zeta-common.toml"
+          }
+        },
+        {
+          "id": "ClientConfig.toml",
+          "name": "ClientConfig.toml",
+          "type": "File",
+          "artifact": {
+            "size": 111,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/zombieawareness/ClientConfig.toml",
+            "MD5": "1016ad236273e204477d7eed9ac03968",
+            "path": "config/zombieawareness/ClientConfig.toml"
+          }
+        },
+        {
+          "id": "Features.toml",
+          "name": "Features.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1605,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/zombieawareness/Features.toml",
+            "MD5": "beca3d8e30ba8de1aef3f8efe6b76781",
+            "path": "config/zombieawareness/Features.toml"
+          }
+        },
+        {
+          "id": "General.toml",
+          "name": "General.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3059,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/zombieawareness/General.toml",
+            "MD5": "bd546219f0439e369d0a60bf33a040ef",
+            "path": "config/zombieawareness/General.toml"
+          }
+        },
+        {
+          "id": "MobLists.toml",
+          "name": "MobLists.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2360,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/zombieawareness/MobLists.toml",
+            "MD5": "0321807003764d101175f0ef8e2acaf7",
+            "path": "config/zombieawareness/MobLists.toml"
+          }
+        },
+        {
+          "id": "PlayerRulesAndLists.toml",
+          "name": "PlayerRulesAndLists.toml",
+          "type": "File",
+          "artifact": {
+            "size": 412,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/config/zombieawareness/PlayerRulesAndLists.toml",
+            "MD5": "6412246ef0218904080766343e40553e",
+            "path": "config/zombieawareness/PlayerRulesAndLists.toml"
+          }
+        },
+        {
+          "id": "Better tom's create storage 1.1.zip",
+          "name": "Better tom's create storage 1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 64820,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/resourcepacks/Better%20tom's%20create%20storage%201.1.zip",
+            "MD5": "38d5813a9b9f85ea59ed1398b930bddd",
+            "path": "resourcepacks/Better tom's create storage 1.1.zip"
+          }
+        },
+        {
+          "id": "Create Simple Storage 2.1.zip",
+          "name": "Create Simple Storage 2.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 78236,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/resourcepacks/Create%20Simple%20Storage%202.1.zip",
+            "MD5": "99c91274184bf47a691c8faa02102d56",
+            "path": "resourcepacks/Create Simple Storage 2.1.zip"
+          }
+        },
+        {
+          "id": "FA+All_Extensions-v1.4.zip",
+          "name": "FA+All_Extensions-v1.4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 260285,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/resourcepacks/FA+All_Extensions-v1.4.zip",
+            "MD5": "6923ea8556177cc93166c01dc40a64e1",
+            "path": "resourcepacks/FA+All_Extensions-v1.4.zip"
+          }
+        },
+        {
+          "id": "FreshAnimations_v1.9.2.zip",
+          "name": "FreshAnimations_v1.9.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 516256,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/resourcepacks/FreshAnimations_v1.9.2.zip",
+            "MD5": "ebdaffde1a25273994c74b5d9ec21e1f",
+            "path": "resourcepacks/FreshAnimations_v1.9.2.zip"
+          }
+        },
+        {
+          "id": "FreshCompats_v1.6.zip",
+          "name": "FreshCompats_v1.6.zip",
+          "type": "File",
+          "artifact": {
+            "size": 514819,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/resourcepacks/FreshCompats_v1.6.zip",
+            "MD5": "bfa4b6efd17fce0481b4a9cfc8fe600e",
+            "path": "resourcepacks/FreshCompats_v1.6.zip"
+          }
+        },
+        {
+          "id": "Quark Programmer Art.zip",
+          "name": "Quark Programmer Art.zip",
+          "type": "File",
+          "artifact": {
+            "size": 266434,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/resourcepacks/Quark%20Programmer%20Art.zip",
+            "MD5": "372d5ab8040ea8fbf0265bf9163ff206",
+            "path": "resourcepacks/Quark Programmer Art.zip"
+          }
+        },
+        {
+          "id": "TZP_1.20.1_2.7.zip",
+          "name": "TZP_1.20.1_2.7.zip",
+          "type": "File",
+          "artifact": {
+            "size": 14177090,
+            "url": "https://distro.epochcraft.space/servers/Beta-1.20.1/files/resourcepacks/TZP_1.20.1_2.7.zip",
+            "MD5": "9c0fe8ecd9931b0121ab939425dd7b1e",
+            "path": "resourcepacks/TZP_1.20.1_2.7.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
