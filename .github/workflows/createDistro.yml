@@ -74,10 +74,10 @@ jobs:
       - name: Deploy via SSH
         uses: appleboy/ssh-action@v1
         with:
-          host: ${{ secrets.HOST }}
-          username: root
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
           password: ${{ secrets.SSH_PWD }}
-          port: ${{ secrets.PORT }}
+          port: ${{ secrets.SSH_PORT }}
           script: |
             rm -r /mnt/nvme2/pterodactyl_volumes/1a87aa6d-d75b-4dd5-a7d6-604f046348ea/webroot/* || true
             cd /mnt/nvme2/pterodactyl_volumes/1a87aa6d-d75b-4dd5-a7d6-604f046348ea/webroot
