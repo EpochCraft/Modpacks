@@ -51,14 +51,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "create_mechanical_chicken": {
-    "data": true
-  },
-  "delightful": {
-    "crop_progress": true,
-    "pie_icons": true,
-    "mushroom_colony": true
-  },
   "supplementaries": {
     "hat_stand": true
   },
@@ -70,13 +62,13 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "create_mob_spawners": {
-    "spawner_progress": true
-  },
   "waystones": {
     "waystone": true
   },
   "corpse": {
     "corpse": true
+  },
+  "balm": {
+    "jade": true
   }
 }
