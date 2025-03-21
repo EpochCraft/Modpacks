@@ -1,7 +1,7 @@
 {
   "$schema": "file:///C:/Users/henry/Documents/GitHub/Modpacks/Nebula/NebulaRoot/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "v1.3.0",
+    "version": "v1.4.0",
     "name": "Beta (Minecraft 1.20.1)",
     "description": "Beta Running Minecraft 1.20.1 (Forge v47.3.10)",
     "icon": "https://i.imgur.com/XrSE655.png",
