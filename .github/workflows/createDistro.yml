@@ -79,7 +79,8 @@ jobs:
           password: ${{ secrets.SSH_PWD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd /mnt/nvme2/pterodactyl_volumes/cc7fc867-b5b9-4d00-b4c5-eed4c9fe1e33/webroot
+            rm -r /mnt/nvme2/pterodactyl_volumes/1a87aa6d-d75b-4dd5-a7d6-604f046348ea/webroot/* || true
+            cd /mnt/nvme2/pterodactyl_volumes/1a87aa6d-d75b-4dd5-a7d6-604f046348ea/webroot
             wget https://github.com/EpochCraft/Modpacks/releases/download/${{steps.short_sha.outputs.sha8}}/result.zip -O result.zip
             unzip result.zip
             rm -r result.zip
