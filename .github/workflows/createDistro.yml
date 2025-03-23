@@ -84,3 +84,11 @@ jobs:
             wget https://github.com/EpochCraft/Modpacks/releases/download/${{steps.short_sha.outputs.sha8}}/result.zip -O result.zip
             unzip result.zip
             rm -r result.zip
+
+      - name: RCON Connection
+        uses: Plagiatus/RCON-Action@v0.2
+        with:
+          server: ${{ secrets.RCON_SERVER }}
+          port: ${{ secrets.RCON_PORT }}
+          password: ${{ secrets.RCON_PASSWORD }}
+          commands: '["kickall The modpack has been updated. Close your game and click play on launcher.", "stop"]'
