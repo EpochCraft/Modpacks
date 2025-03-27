@@ -3,8 +3,8 @@
   "meta": {
     "version": "5.5.5",
     "name": "Gamma (Minecraft 1.18.2)",
-    "description": "Gamma Running Minecraft 1.18.2 (Forge v40.2.4)",
-    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "description": "The EpochCraft Zombie Apocalypse Modpack.",
+    "icon": "",
     "address": "localhost:25565",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",

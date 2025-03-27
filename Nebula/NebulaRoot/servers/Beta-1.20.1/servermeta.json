@@ -3,7 +3,7 @@
   "meta": {
     "version": "v1.4.0",
     "name": "Beta (Minecraft 1.20.1)",
-    "description": "Beta Running Minecraft 1.20.1 (Forge v47.3.10)",
+    "description": "The EpochCraft Create Modpack.",
     "icon": "https://i.imgur.com/XrSE655.png",
     "address": "beta.epochcraft.space",
     "discord": {
