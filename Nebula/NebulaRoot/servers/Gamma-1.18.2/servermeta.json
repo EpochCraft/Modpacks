@@ -5,11 +5,11 @@
     "name": "Gamma (Minecraft 1.18.2)",
     "description": "The EpochCraft Zombie Apocalypse Modpack.",
     "icon": "",
-    "address": "localhost:25565",
+    "address": "gamma.epochcraft.space",
     "discord": {
-      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      "shortId": "1354873478121128039",
+      "largeImageText": "gamma",
+      "largeImageKey": "gamma"
     },
     "mainServer": false,
     "autoconnect": false
