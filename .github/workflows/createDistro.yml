@@ -91,4 +91,4 @@ jobs:
           server: ${{ secrets.RCON_SERVER }}
           port: ${{ secrets.RCON_PORT }}
           password: ${{ secrets.RCON_PASSWORD }}
-          commands: '["kickall The modpack has been updated. Close your game and click play on launcher.", "stop"]'
+          commands: '["bc The launcher modpacks have been updated. Close your game and click play on launcher."]'
