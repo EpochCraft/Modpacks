@@ -2,8 +2,8 @@
   "$schema": "file:///C:/Users/henry/Documents/GitHub/Modpacks/Nebula/NebulaRoot/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "5.5.5",
-    "name": "Gamma (Minecraft 1.18.2)",
-    "description": "The EpochCraft Zombie Apocalypse Modpack.",
+    "name": "Gamma (Minecraft 1.7.10)",
+    "description": "The EpochCraft Nuclear Conflict Modpack.",
     "icon": "",
     "address": "gamma.epochcraft.space",
     "discord": {
@@ -12,7 +12,7 @@
       "largeImageKey": "gamma"
     },
     "mainServer": false,
-    "autoconnect": false
+    "autoconnect": true
   },
   "forge": {
     "version": "40.2.4"
